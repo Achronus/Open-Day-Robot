@@ -18,10 +18,10 @@ class QuestionDatabase:
         self._cursor.close()
         self._database.close()
 
-    def get_question_list(self):
+    def get_category_question_list(self, category):
         """Returns a list of strings containing each question in the database."""
         question_list = []
-        question_list_sql = "SELECT question FROM questions"
+        question_list_sql = "SELECT question FROM questions WHERE category='{}'".format(category)
         for question in self._cursor.execute(question_list_sql):
             question_list.append(question[0])
         return question_list
