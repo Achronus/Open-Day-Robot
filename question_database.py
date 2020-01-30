@@ -18,6 +18,14 @@ class QuestionDatabase:
         self._cursor.close()
         self._database.close()
 
+    def get_question_list(self):
+        """Returns a list of strings containing each question in the database."""
+        question_list = []
+        question_list_sql = "SELECT question FROM questions"
+        for question in self._cursor.execute(question_list_sql):
+            question_list.append(question[0])
+        return question_list
+
     def find_answer(self, question):
         """Finds the answer to the given question."""
         sql = "SELECT answer FROM questions WHERE question='{}'".format(question)
