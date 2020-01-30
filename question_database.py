@@ -30,7 +30,7 @@ class QuestionDatabase:
         """Finds the answer to the given question."""
         sql = "SELECT answer FROM questions WHERE question='{}'".format(question)
         for response in self._cursor.execute(sql):
-            return response
+            return response[0]
 
     def add_new_question(self, new_question):
         """Adds a new question to the ToBeAnswered table."""
