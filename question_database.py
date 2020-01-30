@@ -23,3 +23,13 @@ class QuestionDatabase:
         sql = "SELECT answer FROM questions WHERE question='{}'".format(question)
         for response in self._cursor.execute(sql):
             return response
+
+    def add_new_question(self, new_question):
+        """Adds a new question to the ToBeAnswered table."""
+        # Start by checking if the question is already in the ToBeAnswered table.
+        search_sql = "SELECT unanswered_question FROM ToBeAnswered WHERE unanswered_question='{}'".format(new_question)
+        for response in self._cursor.execute(search_sql):
+            if not response[0]:
+                # If the question is not in the ToBeAnswered table add it to the table.
+                add_sql = "INSERT INTO ToBeAnswered (unanswered_question) VALUES('{}')".format(new_question)
+                self._cursor.execute(add_sql)
