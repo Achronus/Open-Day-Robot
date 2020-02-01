@@ -60,6 +60,7 @@ open_day_robot/CMakeFiles/mover.dir/src/mover.cpp.o: /opt/ros/melodic/include/ro
 open_day_robot/CMakeFiles/mover.dir/src/mover.cpp.o: /opt/ros/melodic/include/ros/wall_timer.h
 open_day_robot/CMakeFiles/mover.dir/src/mover.cpp.o: /opt/ros/melodic/include/ros/wall_timer_options.h
 open_day_robot/CMakeFiles/mover.dir/src/mover.cpp.o: /opt/ros/melodic/include/rosconsole/macros_generated.h
+open_day_robot/CMakeFiles/mover.dir/src/mover.cpp.o: /opt/ros/melodic/include/std_msgs/String.h
 open_day_robot/CMakeFiles/mover.dir/src/mover.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
 open_day_robot/CMakeFiles/mover.dir/src/mover.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
 
