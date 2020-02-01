@@ -453,6 +453,21 @@ std_msgs_generate_messages_eus/fast:
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
+open_day_robot/CMakeFiles/tiagoMover.dir/rule:
+	cd /home/lewis/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 open_day_robot/CMakeFiles/tiagoMover.dir/rule
+.PHONY : open_day_robot/CMakeFiles/tiagoMover.dir/rule
+
+# Convenience name for target.
+tiagoMover: open_day_robot/CMakeFiles/tiagoMover.dir/rule
+
+.PHONY : tiagoMover
+
+# fast build rule for target.
+tiagoMover/fast:
+	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/tiagoMover.dir/build.make open_day_robot/CMakeFiles/tiagoMover.dir/build
+.PHONY : tiagoMover/fast
+
+# Convenience name for target.
 open_day_robot/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/lewis/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 open_day_robot/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : open_day_robot/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
@@ -551,6 +566,33 @@ src/mover.cpp.s:
 	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/mover.dir/build.make open_day_robot/CMakeFiles/mover.dir/src/mover.cpp.s
 .PHONY : src/mover.cpp.s
 
+src/tiagoMover.o: src/tiagoMover.cpp.o
+
+.PHONY : src/tiagoMover.o
+
+# target to build an object file
+src/tiagoMover.cpp.o:
+	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/tiagoMover.dir/build.make open_day_robot/CMakeFiles/tiagoMover.dir/src/tiagoMover.cpp.o
+.PHONY : src/tiagoMover.cpp.o
+
+src/tiagoMover.i: src/tiagoMover.cpp.i
+
+.PHONY : src/tiagoMover.i
+
+# target to preprocess a source file
+src/tiagoMover.cpp.i:
+	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/tiagoMover.dir/build.make open_day_robot/CMakeFiles/tiagoMover.dir/src/tiagoMover.cpp.i
+.PHONY : src/tiagoMover.cpp.i
+
+src/tiagoMover.s: src/tiagoMover.cpp.s
+
+.PHONY : src/tiagoMover.s
+
+# target to generate assembly for a file
+src/tiagoMover.cpp.s:
+	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/tiagoMover.dir/build.make open_day_robot/CMakeFiles/tiagoMover.dir/src/tiagoMover.cpp.s
+.PHONY : src/tiagoMover.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -583,6 +625,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_eus"
+	@echo "... tiagoMover"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
@@ -592,6 +635,9 @@ help:
 	@echo "... src/mover.o"
 	@echo "... src/mover.i"
 	@echo "... src/mover.s"
+	@echo "... src/tiagoMover.o"
+	@echo "... src/tiagoMover.i"
+	@echo "... src/tiagoMover.s"
 .PHONY : help
 
 

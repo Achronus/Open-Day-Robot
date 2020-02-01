@@ -532,6 +532,19 @@ std_msgs_generate_messages_eus/fast:
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named tiagoMover
+
+# Build rule for target.
+tiagoMover: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tiagoMover
+.PHONY : tiagoMover
+
+# fast build rule for target.
+tiagoMover/fast:
+	$(MAKE) -f open_day_robot/CMakeFiles/tiagoMover.dir/build.make open_day_robot/CMakeFiles/tiagoMover.dir/build
+.PHONY : tiagoMover/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -611,6 +624,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_eus"
+	@echo "... tiagoMover"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
