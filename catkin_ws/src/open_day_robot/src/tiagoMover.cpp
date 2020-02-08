@@ -5,7 +5,7 @@
 #include <sstream>
 #include <vector>
 
-//Creating rovot class
+//Creating robot class
 class Robot{
 public:
     //Default robot constructor creating nodehandle to handle the nodes, setting publisher and subscriber to velocity commands and odom
@@ -32,25 +32,35 @@ private:
         if(setup==true){
             startX = msg->pose.pose.position.x;
             startY = msg->pose.pose.position.y;
-            startZ = msg->twist.twist.angular.z;
+            startZ = msg->pose.pose.orientation.z;
             setup=false;
         }
 
         //setting the current positions of x,y and z. This is run every time
         currentX = msg->pose.pose.position.x;
         currentY = msg->pose.pose.position.y;
-        currentZ = msg->twist.twist.angular.z;
+        currentZ = msg->pose.pose.orientation.z;
 
-        ROS_INFO_STREAM("Start X: " << startX << "  ,Current X:" << currentX);
+        ROS_INFO_STREAM("Start X: " << startX << "  \nCurrent X:" << currentX << "\nStart Z: " << startZ << "\nCurrent Z: " << currentZ);
+        ROS_INFO_STREAM("Hello?");
 
         //Creating the message to be sent over the velocity topic
         geometry_msgs::Twist pubMsg;
         //If the robot has not moved 10m
-        if((currentX-startX)<10){
-            pubMsg.linear.x = double(100);
+
+        if((abs(startX - currentX))<10){
+            pubMsg.linear.x = double(10);
         }
-        else if((currentZ-startZ)<0.1){
-            pubMsg.angular.z = double(100);
+        //If it has moved 10m
+        else{
+            //Get the robot to turn 180 degrees and then reset the startx and starty positions
+            if(abs(startZ - currentZ) < 0.95){
+                pubMsg.linear.x = 0;
+                pubMsg.angular.z = double(1);
+            }
+            else {
+                setup = true;
+            }
         }
         pub.publish(pubMsg);
     }

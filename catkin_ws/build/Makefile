@@ -285,32 +285,6 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named coordinateListener
-
-# Build rule for target.
-coordinateListener: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 coordinateListener
-.PHONY : coordinateListener
-
-# fast build rule for target.
-coordinateListener/fast:
-	$(MAKE) -f open_day_robot/CMakeFiles/coordinateListener.dir/build.make open_day_robot/CMakeFiles/coordinateListener.dir/build
-.PHONY : coordinateListener/fast
-
-#=============================================================================
-# Target rules for targets named mover
-
-# Build rule for target.
-mover: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mover
-.PHONY : mover
-
-# fast build rule for target.
-mover/fast:
-	$(MAKE) -f open_day_robot/CMakeFiles/mover.dir/build.make open_day_robot/CMakeFiles/mover.dir/build
-.PHONY : mover/fast
-
-#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_py
 
 # Build rule for target.
@@ -605,8 +579,6 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... coordinateListener"
-	@echo "... mover"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_eus"

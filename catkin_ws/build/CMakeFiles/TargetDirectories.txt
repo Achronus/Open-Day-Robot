@@ -38,8 +38,6 @@
 /home/lewis/catkin_ws/build/open_day_robot/CMakeFiles/install/strip.dir
 /home/lewis/catkin_ws/build/open_day_robot/CMakeFiles/install/local.dir
 /home/lewis/catkin_ws/build/open_day_robot/CMakeFiles/rebuild_cache.dir
-/home/lewis/catkin_ws/build/open_day_robot/CMakeFiles/coordinateListener.dir
-/home/lewis/catkin_ws/build/open_day_robot/CMakeFiles/mover.dir
 /home/lewis/catkin_ws/build/open_day_robot/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /home/lewis/catkin_ws/build/open_day_robot/CMakeFiles/test.dir
 /home/lewis/catkin_ws/build/open_day_robot/CMakeFiles/geometry_msgs_generate_messages_lisp.dir

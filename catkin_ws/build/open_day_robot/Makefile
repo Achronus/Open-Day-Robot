@@ -168,36 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-open_day_robot/CMakeFiles/coordinateListener.dir/rule:
-	cd /home/lewis/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 open_day_robot/CMakeFiles/coordinateListener.dir/rule
-.PHONY : open_day_robot/CMakeFiles/coordinateListener.dir/rule
-
-# Convenience name for target.
-coordinateListener: open_day_robot/CMakeFiles/coordinateListener.dir/rule
-
-.PHONY : coordinateListener
-
-# fast build rule for target.
-coordinateListener/fast:
-	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/coordinateListener.dir/build.make open_day_robot/CMakeFiles/coordinateListener.dir/build
-.PHONY : coordinateListener/fast
-
-# Convenience name for target.
-open_day_robot/CMakeFiles/mover.dir/rule:
-	cd /home/lewis/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 open_day_robot/CMakeFiles/mover.dir/rule
-.PHONY : open_day_robot/CMakeFiles/mover.dir/rule
-
-# Convenience name for target.
-mover: open_day_robot/CMakeFiles/mover.dir/rule
-
-.PHONY : mover
-
-# fast build rule for target.
-mover/fast:
-	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/mover.dir/build.make open_day_robot/CMakeFiles/mover.dir/build
-.PHONY : mover/fast
-
-# Convenience name for target.
 open_day_robot/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
 	cd /home/lewis/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 open_day_robot/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : open_day_robot/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
@@ -512,60 +482,6 @@ std_msgs_generate_messages_py/fast:
 	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/std_msgs_generate_messages_py.dir/build.make open_day_robot/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
-src/coordinateListener.o: src/coordinateListener.cpp.o
-
-.PHONY : src/coordinateListener.o
-
-# target to build an object file
-src/coordinateListener.cpp.o:
-	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/coordinateListener.dir/build.make open_day_robot/CMakeFiles/coordinateListener.dir/src/coordinateListener.cpp.o
-.PHONY : src/coordinateListener.cpp.o
-
-src/coordinateListener.i: src/coordinateListener.cpp.i
-
-.PHONY : src/coordinateListener.i
-
-# target to preprocess a source file
-src/coordinateListener.cpp.i:
-	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/coordinateListener.dir/build.make open_day_robot/CMakeFiles/coordinateListener.dir/src/coordinateListener.cpp.i
-.PHONY : src/coordinateListener.cpp.i
-
-src/coordinateListener.s: src/coordinateListener.cpp.s
-
-.PHONY : src/coordinateListener.s
-
-# target to generate assembly for a file
-src/coordinateListener.cpp.s:
-	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/coordinateListener.dir/build.make open_day_robot/CMakeFiles/coordinateListener.dir/src/coordinateListener.cpp.s
-.PHONY : src/coordinateListener.cpp.s
-
-src/mover.o: src/mover.cpp.o
-
-.PHONY : src/mover.o
-
-# target to build an object file
-src/mover.cpp.o:
-	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/mover.dir/build.make open_day_robot/CMakeFiles/mover.dir/src/mover.cpp.o
-.PHONY : src/mover.cpp.o
-
-src/mover.i: src/mover.cpp.i
-
-.PHONY : src/mover.i
-
-# target to preprocess a source file
-src/mover.cpp.i:
-	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/mover.dir/build.make open_day_robot/CMakeFiles/mover.dir/src/mover.cpp.i
-.PHONY : src/mover.cpp.i
-
-src/mover.s: src/mover.cpp.s
-
-.PHONY : src/mover.s
-
-# target to generate assembly for a file
-src/mover.cpp.s:
-	cd /home/lewis/catkin_ws/build && $(MAKE) -f open_day_robot/CMakeFiles/mover.dir/build.make open_day_robot/CMakeFiles/mover.dir/src/mover.cpp.s
-.PHONY : src/mover.cpp.s
-
 src/tiagoMover.o: src/tiagoMover.cpp.o
 
 .PHONY : src/tiagoMover.o
@@ -602,8 +518,6 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... rebuild_cache"
-	@echo "... coordinateListener"
-	@echo "... mover"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... geometry_msgs_generate_messages_lisp"
@@ -629,12 +543,6 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... src/coordinateListener.o"
-	@echo "... src/coordinateListener.i"
-	@echo "... src/coordinateListener.s"
-	@echo "... src/mover.o"
-	@echo "... src/mover.i"
-	@echo "... src/mover.s"
 	@echo "... src/tiagoMover.o"
 	@echo "... src/tiagoMover.i"
 	@echo "... src/tiagoMover.s"

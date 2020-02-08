@@ -14,14 +14,6 @@ catkin_package()
 ## Build talker and listener
 include_directories(include ${catkin_INCLUDE_DIRS})
 
-add_executable(mover src/mover.cpp)
-target_link_libraries(mover ${catkin_LIBRARIES})
-add_dependencies(mover beginner_tutorials_generate_messages_cpp)
-
-add_executable(coordinateListener src/coordinateListener.cpp)
-target_link_libraries(coordinateListener ${catkin_LIBRARIES})
-add_dependencies(coordinateListener beginner_tutorials_generate_messages_cpp)
-
 add_executable(tiagoMover src/tiagoMover.cpp)
 target_link_libraries(tiagoMover ${catkin_LIBRARIES})
 add_dependencies(tiagoMover beginner_tutorials_generate_messages_cpp)

@@ -264,7 +264,7 @@ gtest/googlemock/preinstall: gtest/googlemock/gtest/preinstall
 gtest/googlemock/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/catkin_ws/build/CMakeFiles --progress-num=6,7,8,9 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/catkin_ws/build/CMakeFiles --progress-num=4,5,6,7 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -296,7 +296,7 @@ clean: gtest/googlemock/CMakeFiles/gmock_main.dir/clean
 gtest/googlemock/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/catkin_ws/build/CMakeFiles --progress-num=3,4,5 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/catkin_ws/build/CMakeFiles --progress-num=1,2,3 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -347,7 +347,7 @@ gtest/googlemock/gtest/preinstall:
 gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/catkin_ws/build/CMakeFiles --progress-num=12,13 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/catkin_ws/build/CMakeFiles --progress-num=10,11 "Built target gtest_main"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -379,7 +379,7 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/catkin_ws/build/CMakeFiles --progress-num=10,11 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/catkin_ws/build/CMakeFiles --progress-num=8,9 "Built target gtest"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -408,15 +408,11 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 # Directory level rules for directory open_day_robot
 
 # Convenience name for "all" pass in the directory.
-open_day_robot/all: open_day_robot/CMakeFiles/coordinateListener.dir/all
-open_day_robot/all: open_day_robot/CMakeFiles/mover.dir/all
 open_day_robot/all: open_day_robot/CMakeFiles/tiagoMover.dir/all
 
 .PHONY : open_day_robot/all
 
 # Convenience name for "clean" pass in the directory.
-open_day_robot/clean: open_day_robot/CMakeFiles/coordinateListener.dir/clean
-open_day_robot/clean: open_day_robot/CMakeFiles/mover.dir/clean
 open_day_robot/clean: open_day_robot/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 open_day_robot/clean: open_day_robot/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 open_day_robot/clean: open_day_robot/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
@@ -445,80 +441,6 @@ open_day_robot/clean: open_day_robot/CMakeFiles/std_msgs_generate_messages_py.di
 open_day_robot/preinstall:
 
 .PHONY : open_day_robot/preinstall
-
-#=============================================================================
-# Target rules for target open_day_robot/CMakeFiles/coordinateListener.dir
-
-# All Build rule for target.
-open_day_robot/CMakeFiles/coordinateListener.dir/all:
-	$(MAKE) -f open_day_robot/CMakeFiles/coordinateListener.dir/build.make open_day_robot/CMakeFiles/coordinateListener.dir/depend
-	$(MAKE) -f open_day_robot/CMakeFiles/coordinateListener.dir/build.make open_day_robot/CMakeFiles/coordinateListener.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/catkin_ws/build/CMakeFiles --progress-num=1,2 "Built target coordinateListener"
-.PHONY : open_day_robot/CMakeFiles/coordinateListener.dir/all
-
-# Include target in all.
-all: open_day_robot/CMakeFiles/coordinateListener.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-open_day_robot/CMakeFiles/coordinateListener.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/catkin_ws/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 open_day_robot/CMakeFiles/coordinateListener.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/catkin_ws/build/CMakeFiles 0
-.PHONY : open_day_robot/CMakeFiles/coordinateListener.dir/rule
-
-# Convenience name for target.
-coordinateListener: open_day_robot/CMakeFiles/coordinateListener.dir/rule
-
-.PHONY : coordinateListener
-
-# clean rule for target.
-open_day_robot/CMakeFiles/coordinateListener.dir/clean:
-	$(MAKE) -f open_day_robot/CMakeFiles/coordinateListener.dir/build.make open_day_robot/CMakeFiles/coordinateListener.dir/clean
-.PHONY : open_day_robot/CMakeFiles/coordinateListener.dir/clean
-
-# clean rule for target.
-clean: open_day_robot/CMakeFiles/coordinateListener.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target open_day_robot/CMakeFiles/mover.dir
-
-# All Build rule for target.
-open_day_robot/CMakeFiles/mover.dir/all:
-	$(MAKE) -f open_day_robot/CMakeFiles/mover.dir/build.make open_day_robot/CMakeFiles/mover.dir/depend
-	$(MAKE) -f open_day_robot/CMakeFiles/mover.dir/build.make open_day_robot/CMakeFiles/mover.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/catkin_ws/build/CMakeFiles --progress-num=14,15 "Built target mover"
-.PHONY : open_day_robot/CMakeFiles/mover.dir/all
-
-# Include target in all.
-all: open_day_robot/CMakeFiles/mover.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-open_day_robot/CMakeFiles/mover.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/catkin_ws/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 open_day_robot/CMakeFiles/mover.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/catkin_ws/build/CMakeFiles 0
-.PHONY : open_day_robot/CMakeFiles/mover.dir/rule
-
-# Convenience name for target.
-mover: open_day_robot/CMakeFiles/mover.dir/rule
-
-.PHONY : mover
-
-# clean rule for target.
-open_day_robot/CMakeFiles/mover.dir/clean:
-	$(MAKE) -f open_day_robot/CMakeFiles/mover.dir/build.make open_day_robot/CMakeFiles/mover.dir/clean
-.PHONY : open_day_robot/CMakeFiles/mover.dir/clean
-
-# clean rule for target.
-clean: open_day_robot/CMakeFiles/mover.dir/clean
-
-.PHONY : clean
 
 #=============================================================================
 # Target rules for target open_day_robot/CMakeFiles/geometry_msgs_generate_messages_py.dir
@@ -1071,7 +993,7 @@ clean: open_day_robot/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 open_day_robot/CMakeFiles/tiagoMover.dir/all:
 	$(MAKE) -f open_day_robot/CMakeFiles/tiagoMover.dir/build.make open_day_robot/CMakeFiles/tiagoMover.dir/depend
 	$(MAKE) -f open_day_robot/CMakeFiles/tiagoMover.dir/build.make open_day_robot/CMakeFiles/tiagoMover.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/catkin_ws/build/CMakeFiles --progress-num=16,17 "Built target tiagoMover"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/catkin_ws/build/CMakeFiles --progress-num=12,13 "Built target tiagoMover"
 .PHONY : open_day_robot/CMakeFiles/tiagoMover.dir/all
 
 # Include target in all.
