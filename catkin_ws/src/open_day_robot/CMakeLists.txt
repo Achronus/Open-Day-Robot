@@ -17,3 +17,4 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 add_executable(tiagoMover src/tiagoMover.cpp)
 target_link_libraries(tiagoMover ${catkin_LIBRARIES})
 add_dependencies(tiagoMover beginner_tutorials_generate_messages_cpp)
+
