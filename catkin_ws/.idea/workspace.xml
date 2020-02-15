@@ -44,10 +44,17 @@
       <option name="presentableId" value="Default" />
       <updated>1581619019647</updated>
       <workItem from="1581619021776" duration="208000" />
+      <workItem from="1581692520726" duration="249000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="654" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1581692536470">
+      <screen x="0" y="25" width="1920" height="1008" />
+    </state>
+    <state x="654" y="356" key="com.intellij.ide.util.TipDialog/0.25.1920.1008@0.25.1920.1008" timestamp="1581692536470" />
   </component>
 </project>

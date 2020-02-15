@@ -54,7 +54,7 @@ private:
         //If it has moved 10m
         else{
             //Get the robot to turn 180 degrees and then reset the startx and starty positions
-            if(abs(startZ - currentZ) < 0.95){
+            if(abs(startZ - currentZ) < 0.988){
                 pubMsg.linear.x = 0;
                 pubMsg.angular.z = double(1);
             }
