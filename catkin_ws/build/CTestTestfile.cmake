@@ -6,4 +6,3 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("open_day_robot")
-subdirs("simple_navigation_goals")
