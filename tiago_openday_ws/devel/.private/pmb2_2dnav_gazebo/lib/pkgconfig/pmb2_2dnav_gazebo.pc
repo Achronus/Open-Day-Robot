@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/devel/.private/pmb2_2dnav_gazebo
+
+Name: pmb2_2dnav_gazebo
+Description: Description of pmb2_2dnav_gazebo
+Version: 1.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

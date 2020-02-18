@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/pal_wifi_localization_msgs/include/pal_wifi_localization_msgs/GetWifiMapRequest.h

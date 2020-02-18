@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/install
+
+Name: tiago_2dnav
+Description: Description of tiago_2dnav
+Version: 2.0.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

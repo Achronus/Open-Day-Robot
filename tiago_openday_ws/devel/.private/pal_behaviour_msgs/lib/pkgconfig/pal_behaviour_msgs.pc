@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/devel/.private/pal_behaviour_msgs
+
+Name: pal_behaviour_msgs
+Description: Description of pal_behaviour_msgs
+Version: 0.12.14
+Cflags: -I/home/lewis/tiago_openday_ws/devel/.private/pal_behaviour_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs actionlib_msgs

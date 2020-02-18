@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/tiago_trajectory_controller/lib/pkgconfig/tiago_trajectory_controller.pc

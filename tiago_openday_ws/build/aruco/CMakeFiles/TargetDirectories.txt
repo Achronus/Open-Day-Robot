@@ -1,0 +1,11 @@
+/home/lewis/tiago_openday_ws/build/aruco/CMakeFiles/install/local.dir
+/home/lewis/tiago_openday_ws/build/aruco/CMakeFiles/install.dir
+/home/lewis/tiago_openday_ws/build/aruco/CMakeFiles/list_install_components.dir
+/home/lewis/tiago_openday_ws/build/aruco/CMakeFiles/doxygen.dir
+/home/lewis/tiago_openday_ws/build/aruco/CMakeFiles/install/strip.dir
+/home/lewis/tiago_openday_ws/build/aruco/CMakeFiles/aruco.dir
+/home/lewis/tiago_openday_ws/build/aruco/CMakeFiles/edit_cache.dir
+/home/lewis/tiago_openday_ws/build/aruco/CMakeFiles/rebuild_cache.dir
+/home/lewis/tiago_openday_ws/build/aruco/CMakeFiles/download_extra_data.dir
+/home/lewis/tiago_openday_ws/build/aruco/CMakeFiles/_catkin_empty_exported_target.dir
+/home/lewis/tiago_openday_ws/build/aruco/CMakeFiles/optimalmarkers.dir

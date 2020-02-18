@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/install
+
+Name: key_teleop
+Description: Description of key_teleop
+Version: 0.3.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

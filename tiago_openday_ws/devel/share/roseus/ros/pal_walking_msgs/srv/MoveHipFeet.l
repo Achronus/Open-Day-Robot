@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/pal_walking_msgs/share/roseus/ros/pal_walking_msgs/srv/MoveHipFeet.l

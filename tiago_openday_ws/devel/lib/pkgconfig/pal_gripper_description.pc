@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/pal_gripper_description/lib/pkgconfig/pal_gripper_description.pc

@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/devel/.private/transmission_interface
+
+Name: transmission_interface
+Description: Description of transmission_interface
+Version: 0.2.10
+Cflags: -I/home/lewis/tiago_openday_ws/src/ros_control/transmission_interface/include -I/usr/include
+Libs: -L${prefix}/lib -ltransmission_interface_parser -ltransmission_interface_loader -ltransmission_interface_loader_plugins /usr/lib/x86_64-linux-gnu/libtinyxml.so
+Requires: pluginlib roscpp

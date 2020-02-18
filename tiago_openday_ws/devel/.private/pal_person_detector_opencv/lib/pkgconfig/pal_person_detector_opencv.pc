@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/devel/.private/pal_person_detector_opencv
+
+Name: pal_person_detector_opencv
+Description: Description of pal_person_detector_opencv
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: image_transport cv_bridge pal_detection_msgs roscpp

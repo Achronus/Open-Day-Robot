@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/controller_interface/lib/pkgconfig/controller_interface.pc

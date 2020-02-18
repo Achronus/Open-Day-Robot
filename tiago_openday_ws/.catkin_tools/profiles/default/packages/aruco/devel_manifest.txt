@@ -1,0 +1,7 @@
+aruco_ros/aruco
+/home/lewis/tiago_openday_ws/devel/.private/aruco/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
+/home/lewis/tiago_openday_ws/devel/.private/aruco/lib/libaruco.so /home/lewis/tiago_openday_ws/devel/lib/libaruco.so
+/home/lewis/tiago_openday_ws/devel/.private/aruco/lib/pkgconfig/aruco.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/aruco.pc
+/home/lewis/tiago_openday_ws/devel/.private/aruco/lib/aruco/optimalmarkers /home/lewis/tiago_openday_ws/devel/lib/aruco/optimalmarkers
+/home/lewis/tiago_openday_ws/devel/.private/aruco/share/aruco/cmake/arucoConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/aruco/cmake/arucoConfig-version.cmake
+/home/lewis/tiago_openday_ws/devel/.private/aruco/share/aruco/cmake/arucoConfig.cmake /home/lewis/tiago_openday_ws/devel/share/aruco/cmake/arucoConfig.cmake

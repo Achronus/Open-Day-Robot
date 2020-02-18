@@ -1,0 +1,6 @@
+simple_grasping_action
+/home/lewis/tiago_openday_ws/devel/.private/simple_grasping_action/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
+/home/lewis/tiago_openday_ws/devel/.private/simple_grasping_action/lib/pkgconfig/simple_grasping_action.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/simple_grasping_action.pc
+/home/lewis/tiago_openday_ws/devel/.private/simple_grasping_action/lib/python2.7/dist-packages/simple_grasping_action/__init__.py /home/lewis/tiago_openday_ws/devel/lib/python2.7/dist-packages/simple_grasping_action/__init__.py
+/home/lewis/tiago_openday_ws/devel/.private/simple_grasping_action/share/simple_grasping_action/cmake/simple_grasping_actionConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/simple_grasping_action/cmake/simple_grasping_actionConfig-version.cmake
+/home/lewis/tiago_openday_ws/devel/.private/simple_grasping_action/share/simple_grasping_action/cmake/simple_grasping_actionConfig.cmake /home/lewis/tiago_openday_ws/devel/share/simple_grasping_action/cmake/simple_grasping_actionConfig.cmake

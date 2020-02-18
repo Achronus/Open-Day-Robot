@@ -1,0 +1,6 @@
+devel_space: /home/lewis/tiago_openday_ws/devel
+install: false
+install_space: /home/lewis/tiago_openday_ws/install
+profile: default
+source_space: /home/lewis/tiago_openday_ws/src
+workspace: /home/lewis/tiago_openday_ws

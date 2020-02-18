@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/tiago_opencv_tutorial/share/common-lisp/ros/tiago_opencv_tutorial/msg/tiago_opencv_tutorial-msg.asd

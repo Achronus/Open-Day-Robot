@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/devel/.private/teleop_tools_msgs
+
+Name: teleop_tools_msgs
+Description: Description of teleop_tools_msgs
+Version: 0.3.2
+Cflags: -I/home/lewis/tiago_openday_ws/devel/.private/teleop_tools_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime actionlib_msgs

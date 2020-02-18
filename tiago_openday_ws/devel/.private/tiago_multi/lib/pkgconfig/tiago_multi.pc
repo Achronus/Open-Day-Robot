@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/devel/.private/tiago_multi
+
+Name: tiago_multi
+Description: Description of tiago_multi
+Version: 2.0.20
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

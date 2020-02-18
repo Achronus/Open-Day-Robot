@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/pal_hardware_interfaces/share/pal_hardware_interfaces/cmake/pal_hardware_interfacesConfig-version.cmake
