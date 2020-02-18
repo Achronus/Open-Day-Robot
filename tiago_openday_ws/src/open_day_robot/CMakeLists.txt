@@ -5,6 +5,9 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   pal_detection_msgs
+  geometry_msgs
+  actionlib
+  move_base_msgs
 )
 
 catkin_package(
@@ -21,3 +24,10 @@ include_directories(
 
 add_executable(personDetection src/personDetection.cpp)
 target_link_libraries(personDetection ${catkin_LIBRARIES})
+
+add_executable(tiagoMover src/tiagoMover.cpp)
+target_link_libraries(tiagoMover ${catkin_LIBRARIES})
+add_dependencies(tiagoMover beginner_tutorials_generate_messages_cpp)
+
+add_executable(navGoal src/navGoal.cpp)
+target_link_libraries(navGoal ${catkin_LIBRARIES})

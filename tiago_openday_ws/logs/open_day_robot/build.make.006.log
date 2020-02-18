@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target personDetection[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/personDetection.dir/src/personDetection.cpp.o[0m
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/personDetection.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/personDetection.cpp:20:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kros[m[K’
+     [01;31m[Kros[m[K::spin();
+     [01;31m[K^~~[m[K
+CMakeFiles/personDetection.dir/build.make:62: recipe for target 'CMakeFiles/personDetection.dir/src/personDetection.cpp.o' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/personDetection.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make[2]: *** [CMakeFiles/personDetection.dir/src/personDetection.cpp.o] Error 1
+make[1]: *** [CMakeFiles/personDetection.dir/all] Error 2
+make: *** [all] Error 2
