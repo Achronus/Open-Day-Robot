@@ -1,0 +1,5 @@
+Symlinking /home/lewis/tiago_openday_ws/devel/lib/libroboticsgroup_gazebo_mimic_joint_plugin.so
+Symlinking /home/lewis/tiago_openday_ws/devel/lib/libroboticsgroup_gazebo_disable_link_plugin.so
+Symlinking /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/roboticsgroup_gazebo_plugins.pc
+Symlinking /home/lewis/tiago_openday_ws/devel/share/roboticsgroup_gazebo_plugins/cmake/roboticsgroup_gazebo_pluginsConfig-version.cmake
+Symlinking /home/lewis/tiago_openday_ws/devel/share/roboticsgroup_gazebo_plugins/cmake/roboticsgroup_gazebo_pluginsConfig.cmake

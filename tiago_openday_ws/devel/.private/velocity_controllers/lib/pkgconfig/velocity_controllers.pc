@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/devel/.private/velocity_controllers
+
+Name: velocity_controllers
+Description: Description of velocity_controllers
+Version: 0.3.18
+Cflags: -I/home/lewis/tiago_openday_ws/src/ros_controllers/velocity_controllers/include
+Libs: -L${prefix}/lib -lvelocity_controllers
+Requires: angles control_msgs control_toolbox controller_interface forward_command_controller realtime_tools urdf

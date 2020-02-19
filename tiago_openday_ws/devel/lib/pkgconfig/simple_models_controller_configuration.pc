@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/simple_models_controller_configuration/lib/pkgconfig/simple_models_controller_configuration.pc

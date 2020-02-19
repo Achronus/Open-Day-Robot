@@ -1,0 +1,6 @@
+ros_controllers/imu_sensor_controller
+/home/lewis/tiago_openday_ws/devel/.private/imu_sensor_controller/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
+/home/lewis/tiago_openday_ws/devel/.private/imu_sensor_controller/lib/libimu_sensor_controller.so /home/lewis/tiago_openday_ws/devel/lib/libimu_sensor_controller.so
+/home/lewis/tiago_openday_ws/devel/.private/imu_sensor_controller/lib/pkgconfig/imu_sensor_controller.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/imu_sensor_controller.pc
+/home/lewis/tiago_openday_ws/devel/.private/imu_sensor_controller/share/imu_sensor_controller/cmake/imu_sensor_controllerConfig.cmake /home/lewis/tiago_openday_ws/devel/share/imu_sensor_controller/cmake/imu_sensor_controllerConfig.cmake
+/home/lewis/tiago_openday_ws/devel/.private/imu_sensor_controller/share/imu_sensor_controller/cmake/imu_sensor_controllerConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/imu_sensor_controller/cmake/imu_sensor_controllerConfig-version.cmake

@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/install
+
+Name: backward_ros
+Description: Description of backward_ros
+Version: 0.1.7
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lbackward
+Requires: 

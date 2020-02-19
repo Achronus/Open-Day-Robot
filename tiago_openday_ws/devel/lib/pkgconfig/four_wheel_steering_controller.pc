@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/four_wheel_steering_controller/lib/pkgconfig/four_wheel_steering_controller.pc

@@ -6,6 +6,8 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   geometry_msgs
+  actionlib
+  move_base_msgs
 )
 
 ## Declare a catkin package
@@ -14,6 +16,9 @@ catkin_package()
 ## Build talker and listener
 include_directories(include ${catkin_INCLUDE_DIRS})
 
-add_executable(mover src/mover.cpp)
-target_link_libraries(mover ${catkin_LIBRARIES})
-add_dependencies(mover beginner_tutorials_generate_messages_cpp)
+add_executable(tiagoMover src/tiagoMover.cpp)
+target_link_libraries(tiagoMover ${catkin_LIBRARIES})
+add_dependencies(tiagoMover beginner_tutorials_generate_messages_cpp)
+
+add_executable(navGoal src/navGoal.cpp)
+target_link_libraries(navGoal ${catkin_LIBRARIES})

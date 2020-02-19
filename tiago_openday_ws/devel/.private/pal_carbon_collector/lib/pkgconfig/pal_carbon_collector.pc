@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/devel/.private/pal_carbon_collector
+
+Name: pal_carbon_collector
+Description: Description of pal_carbon_collector
+Version: 1.3.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

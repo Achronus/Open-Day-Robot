@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/devel/.private/aruco
+
+Name: aruco
+Description: Description of aruco
+Version: 0.2.4
+Cflags: -I/home/lewis/tiago_openday_ws/src/aruco_ros/aruco/include
+Libs: -L${prefix}/lib -laruco
+Requires: 

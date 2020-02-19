@@ -1,0 +1,5 @@
+pal_gripper/pal_gripper
+/home/lewis/tiago_openday_ws/devel/.private/pal_gripper/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
+/home/lewis/tiago_openday_ws/devel/.private/pal_gripper/lib/pkgconfig/pal_gripper.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/pal_gripper.pc
+/home/lewis/tiago_openday_ws/devel/.private/pal_gripper/share/pal_gripper/cmake/pal_gripperConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/pal_gripper/cmake/pal_gripperConfig-version.cmake
+/home/lewis/tiago_openday_ws/devel/.private/pal_gripper/share/pal_gripper/cmake/pal_gripperConfig.cmake /home/lewis/tiago_openday_ws/devel/share/pal_gripper/cmake/pal_gripperConfig.cmake

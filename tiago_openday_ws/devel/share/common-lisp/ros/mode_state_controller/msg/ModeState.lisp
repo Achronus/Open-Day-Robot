@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/mode_state_controller/share/common-lisp/ros/mode_state_controller/msg/ModeState.lisp

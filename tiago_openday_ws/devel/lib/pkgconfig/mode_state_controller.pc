@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/mode_state_controller/lib/pkgconfig/mode_state_controller.pc

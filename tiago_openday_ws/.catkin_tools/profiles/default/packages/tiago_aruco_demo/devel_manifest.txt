@@ -1,0 +1,5 @@
+tiago_tutorials/tiago_aruco_demo
+/home/lewis/tiago_openday_ws/devel/.private/tiago_aruco_demo/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
+/home/lewis/tiago_openday_ws/devel/.private/tiago_aruco_demo/lib/pkgconfig/tiago_aruco_demo.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/tiago_aruco_demo.pc
+/home/lewis/tiago_openday_ws/devel/.private/tiago_aruco_demo/share/tiago_aruco_demo/cmake/tiago_aruco_demoConfig.cmake /home/lewis/tiago_openday_ws/devel/share/tiago_aruco_demo/cmake/tiago_aruco_demoConfig.cmake
+/home/lewis/tiago_openday_ws/devel/.private/tiago_aruco_demo/share/tiago_aruco_demo/cmake/tiago_aruco_demoConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/tiago_aruco_demo/cmake/tiago_aruco_demoConfig-version.cmake

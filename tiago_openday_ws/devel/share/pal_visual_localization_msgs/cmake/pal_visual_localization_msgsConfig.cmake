@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/pal_visual_localization_msgs/share/pal_visual_localization_msgs/cmake/pal_visual_localization_msgsConfig.cmake

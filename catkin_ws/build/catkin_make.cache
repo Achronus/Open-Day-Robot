@@ -1,2 +1,2 @@
-beginner_tutorials:open_day_robot
+open_day_robot
 -DCATKIN_DEVEL_PREFIX=/home/lewis/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lewis/catkin_ws/install -G Unix Makefiles

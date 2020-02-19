@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/pal_hardware_interfaces/lib/pkgconfig/pal_hardware_interfaces.pc

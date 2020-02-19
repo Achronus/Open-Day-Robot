@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/devel/.private/rqt_joint_trajectory_controller
+
+Name: rqt_joint_trajectory_controller
+Description: Description of rqt_joint_trajectory_controller
+Version: 0.3.18
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

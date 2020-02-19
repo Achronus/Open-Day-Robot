@@ -1,0 +1,5 @@
+Symlinking /home/lewis/tiago_openday_ws/devel/lib/robot_pose/distance_publisher_node
+Symlinking /home/lewis/tiago_openday_ws/devel/lib/robot_pose/robot_pose_node
+Symlinking /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/robot_pose.pc
+Symlinking /home/lewis/tiago_openday_ws/devel/share/robot_pose/cmake/robot_poseConfig-version.cmake
+Symlinking /home/lewis/tiago_openday_ws/devel/share/robot_pose/cmake/robot_poseConfig.cmake

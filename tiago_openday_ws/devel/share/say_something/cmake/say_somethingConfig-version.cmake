@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/say_something/share/say_something/cmake/say_somethingConfig-version.cmake

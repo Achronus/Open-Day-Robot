@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/install
+
+Name: hey5_description
+Description: Description of hey5_description
+Version: 1.0.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

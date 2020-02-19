@@ -1,0 +1,8 @@
+prefix=/home/lewis/tiago_openday_ws/install
+
+Name: pmb2_maps
+Description: Description of pmb2_maps
+Version: 2.0.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

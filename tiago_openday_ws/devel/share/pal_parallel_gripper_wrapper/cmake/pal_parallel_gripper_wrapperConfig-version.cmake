@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/pal_parallel_gripper_wrapper/share/pal_parallel_gripper_wrapper/cmake/pal_parallel_gripper_wrapperConfig-version.cmake
