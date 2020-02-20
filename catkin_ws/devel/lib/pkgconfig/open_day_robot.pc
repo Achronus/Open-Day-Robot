@@ -1,8 +1,0 @@
-prefix=/home/lewis/catkin_ws/devel
-
-Name: open_day_robot
-Description: Description of open_day_robot
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
