@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/robot_pose/lib/pkgconfig/robot_pose.pc

@@ -1,7 +1,0 @@
-robot_pose
-/home/lewis/tiago_openday_ws/devel/.private/robot_pose/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
-/home/lewis/tiago_openday_ws/devel/.private/robot_pose/lib/robot_pose/distance_publisher_node /home/lewis/tiago_openday_ws/devel/lib/robot_pose/distance_publisher_node
-/home/lewis/tiago_openday_ws/devel/.private/robot_pose/lib/robot_pose/robot_pose_node /home/lewis/tiago_openday_ws/devel/lib/robot_pose/robot_pose_node
-/home/lewis/tiago_openday_ws/devel/.private/robot_pose/lib/pkgconfig/robot_pose.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/robot_pose.pc
-/home/lewis/tiago_openday_ws/devel/.private/robot_pose/share/robot_pose/cmake/robot_poseConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/robot_pose/cmake/robot_poseConfig-version.cmake
-/home/lewis/tiago_openday_ws/devel/.private/robot_pose/share/robot_pose/cmake/robot_poseConfig.cmake /home/lewis/tiago_openday_ws/devel/share/robot_pose/cmake/robot_poseConfig.cmake

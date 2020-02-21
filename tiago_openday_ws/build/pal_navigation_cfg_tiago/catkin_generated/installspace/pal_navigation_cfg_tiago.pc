@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/install
-
-Name: pal_navigation_cfg_tiago
-Description: Description of pal_navigation_cfg_tiago
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

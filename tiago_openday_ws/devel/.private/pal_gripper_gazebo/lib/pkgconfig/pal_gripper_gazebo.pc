@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/devel/.private/pal_gripper_gazebo
-
-Name: pal_gripper_gazebo
-Description: Description of pal_gripper_gazebo
-Version: 1.0.2
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

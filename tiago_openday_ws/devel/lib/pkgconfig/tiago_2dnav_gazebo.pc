@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/tiago_2dnav_gazebo/lib/pkgconfig/tiago_2dnav_gazebo.pc

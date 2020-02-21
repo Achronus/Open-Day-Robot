@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/devel/.private/tiago_description
-
-Name: tiago_description
-Description: Description of tiago_description
-Version: 2.0.37
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/say_something/lib/pkgconfig/say_something.pc

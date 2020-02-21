@@ -1,2 +1,0 @@
-set(pal_statistics_msgs_MESSAGE_FILES "/home/lewis/tiago_openday_ws/src/pal_statistics/pal_statistics_msgs/msg/Statistic.msg;/home/lewis/tiago_openday_ws/src/pal_statistics/pal_statistics_msgs/msg/Statistics.msg;/home/lewis/tiago_openday_ws/src/pal_statistics/pal_statistics_msgs/msg/StatisticsNames.msg;/home/lewis/tiago_openday_ws/src/pal_statistics/pal_statistics_msgs/msg/StatisticsValues.msg")
-set(pal_statistics_msgs_SERVICE_FILES "")

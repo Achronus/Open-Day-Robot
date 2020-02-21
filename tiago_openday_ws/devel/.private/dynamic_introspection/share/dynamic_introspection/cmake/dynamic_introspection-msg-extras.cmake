@@ -1,2 +1,0 @@
-set(dynamic_introspection_MESSAGE_FILES "/home/lewis/tiago_openday_ws/src/dynamic_introspection/msg/BoolParameter.msg;/home/lewis/tiago_openday_ws/src/dynamic_introspection/msg/IntrospectionMsg.msg;/home/lewis/tiago_openday_ws/src/dynamic_introspection/msg/DoubleParameter.msg;/home/lewis/tiago_openday_ws/src/dynamic_introspection/msg/IntParameter.msg;/home/lewis/tiago_openday_ws/src/dynamic_introspection/msg/MarkerParameter.msg")
-set(dynamic_introspection_SERVICE_FILES "")

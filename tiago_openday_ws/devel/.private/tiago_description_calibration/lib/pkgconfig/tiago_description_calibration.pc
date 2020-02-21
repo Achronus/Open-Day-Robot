@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/devel/.private/tiago_description_calibration
-
-Name: tiago_description_calibration
-Description: Description of tiago_description_calibration
-Version: 0.0.6
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/transmission_interface/lib/pkgconfig/transmission_interface.pc

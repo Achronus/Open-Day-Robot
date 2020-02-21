@@ -1,5 +1,0 @@
-pmb2_simulation/pmb2_gazebo
-/home/lewis/tiago_openday_ws/devel/.private/pmb2_gazebo/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
-/home/lewis/tiago_openday_ws/devel/.private/pmb2_gazebo/lib/pkgconfig/pmb2_gazebo.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/pmb2_gazebo.pc
-/home/lewis/tiago_openday_ws/devel/.private/pmb2_gazebo/share/pmb2_gazebo/cmake/pmb2_gazeboConfig.cmake /home/lewis/tiago_openday_ws/devel/share/pmb2_gazebo/cmake/pmb2_gazeboConfig.cmake
-/home/lewis/tiago_openday_ws/devel/.private/pmb2_gazebo/share/pmb2_gazebo/cmake/pmb2_gazeboConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/pmb2_gazebo/cmake/pmb2_gazeboConfig-version.cmake
