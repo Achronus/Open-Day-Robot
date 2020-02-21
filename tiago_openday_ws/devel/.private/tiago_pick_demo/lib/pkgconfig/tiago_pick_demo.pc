@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/devel/.private/tiago_pick_demo
-
-Name: tiago_pick_demo
-Description: Description of tiago_pick_demo
-Version: 2.0.3
-Cflags: -I/home/lewis/tiago_openday_ws/devel/.private/tiago_pick_demo/include
-Libs: -L${prefix}/lib 
-Requires: 

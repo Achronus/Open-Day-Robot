@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/install
-
-Name: look_hand
-Description: Description of look_hand
-Version: 2.0.3
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

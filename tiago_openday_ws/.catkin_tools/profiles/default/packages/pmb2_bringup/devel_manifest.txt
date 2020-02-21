@@ -1,5 +1,0 @@
-pmb2_robot/pmb2_bringup
-/home/lewis/tiago_openday_ws/devel/.private/pmb2_bringup/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
-/home/lewis/tiago_openday_ws/devel/.private/pmb2_bringup/lib/pkgconfig/pmb2_bringup.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/pmb2_bringup.pc
-/home/lewis/tiago_openday_ws/devel/.private/pmb2_bringup/share/pmb2_bringup/cmake/pmb2_bringupConfig.cmake /home/lewis/tiago_openday_ws/devel/share/pmb2_bringup/cmake/pmb2_bringupConfig.cmake
-/home/lewis/tiago_openday_ws/devel/.private/pmb2_bringup/share/pmb2_bringup/cmake/pmb2_bringupConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/pmb2_bringup/cmake/pmb2_bringupConfig-version.cmake

@@ -1,5 +1,0 @@
-pal_wsg_gripper/pal_wsg_gripper
-/home/lewis/tiago_openday_ws/devel/.private/pal_wsg_gripper/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
-/home/lewis/tiago_openday_ws/devel/.private/pal_wsg_gripper/lib/pkgconfig/pal_wsg_gripper.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/pal_wsg_gripper.pc
-/home/lewis/tiago_openday_ws/devel/.private/pal_wsg_gripper/share/pal_wsg_gripper/cmake/pal_wsg_gripperConfig.cmake /home/lewis/tiago_openday_ws/devel/share/pal_wsg_gripper/cmake/pal_wsg_gripperConfig.cmake
-/home/lewis/tiago_openday_ws/devel/.private/pal_wsg_gripper/share/pal_wsg_gripper/cmake/pal_wsg_gripperConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/pal_wsg_gripper/cmake/pal_wsg_gripperConfig-version.cmake

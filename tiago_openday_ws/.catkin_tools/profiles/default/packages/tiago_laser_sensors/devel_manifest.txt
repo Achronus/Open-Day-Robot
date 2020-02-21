@@ -1,5 +1,0 @@
-tiago_navigation/tiago_laser_sensors
-/home/lewis/tiago_openday_ws/devel/.private/tiago_laser_sensors/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
-/home/lewis/tiago_openday_ws/devel/.private/tiago_laser_sensors/lib/pkgconfig/tiago_laser_sensors.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/tiago_laser_sensors.pc
-/home/lewis/tiago_openday_ws/devel/.private/tiago_laser_sensors/share/tiago_laser_sensors/cmake/tiago_laser_sensorsConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/tiago_laser_sensors/cmake/tiago_laser_sensorsConfig-version.cmake
-/home/lewis/tiago_openday_ws/devel/.private/tiago_laser_sensors/share/tiago_laser_sensors/cmake/tiago_laser_sensorsConfig.cmake /home/lewis/tiago_openday_ws/devel/share/tiago_laser_sensors/cmake/tiago_laser_sensorsConfig.cmake

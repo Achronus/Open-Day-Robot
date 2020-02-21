@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/pal_interaction_msgs/share/pal_interaction_msgs/msg/ASRFileFeedback.msg

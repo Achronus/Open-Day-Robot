@@ -1,7 +1,0 @@
-Symlinking /home/lewis/tiago_openday_ws/devel/lib/libgazebo_diff_drive.so
-Symlinking /home/lewis/tiago_openday_ws/devel/lib/libgazebo_four_wheel_diff_drive_plugin.so
-Symlinking /home/lewis/tiago_openday_ws/devel/lib/libgazebo_diff_drive_plugin.so
-Symlinking /home/lewis/tiago_openday_ws/devel/lib/libgazebo_zero_wheel_vel.so
-Symlinking /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/simple_models_gazebo.pc
-Symlinking /home/lewis/tiago_openday_ws/devel/share/simple_models_gazebo/cmake/simple_models_gazeboConfig.cmake
-Symlinking /home/lewis/tiago_openday_ws/devel/share/simple_models_gazebo/cmake/simple_models_gazeboConfig-version.cmake

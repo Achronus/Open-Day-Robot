@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/install
-
-Name: pal_wsg_gripper
-Description: Description of pal_wsg_gripper
-Version: 0.0.9
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

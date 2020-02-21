@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/tiago_pick_demo/share/roseus/ros/tiago_pick_demo/msg/PickUpPoseAction.l

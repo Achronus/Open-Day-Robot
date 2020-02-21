@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/devel/.private/pal_gazebo_worlds
-
-Name: pal_gazebo_worlds
-Description: Description of pal_gazebo_worlds
-Version: 2.0.36
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: gazebo_msgs

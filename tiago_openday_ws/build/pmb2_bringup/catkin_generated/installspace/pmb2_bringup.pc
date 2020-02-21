@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/install
-
-Name: pmb2_bringup
-Description: Description of pmb2_bringup
-Version: 3.0.10
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

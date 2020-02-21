@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/pal_gazebo_plugins/share/pal_gazebo_plugins/cmake/pal_gazebo_pluginsConfig.cmake

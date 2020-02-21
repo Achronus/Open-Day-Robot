@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/aruco/share/aruco/cmake/arucoConfig.cmake

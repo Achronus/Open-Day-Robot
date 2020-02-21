@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/devel/.private/pal_detection_msgs
-
-Name: pal_detection_msgs
-Description: Description of pal_detection_msgs
-Version: 0.12.14
-Cflags: -I/home/lewis/tiago_openday_ws/devel/.private/pal_detection_msgs/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime sensor_msgs geometry_msgs actionlib_msgs

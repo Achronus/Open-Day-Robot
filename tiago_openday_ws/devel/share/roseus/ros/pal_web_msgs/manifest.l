@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/pal_web_msgs/share/roseus/ros/pal_web_msgs/manifest.l

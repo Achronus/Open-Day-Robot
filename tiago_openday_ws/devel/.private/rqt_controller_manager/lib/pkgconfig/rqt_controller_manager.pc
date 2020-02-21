@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/devel/.private/rqt_controller_manager
-
-Name: rqt_controller_manager
-Description: Description of rqt_controller_manager
-Version: 0.2.10
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
