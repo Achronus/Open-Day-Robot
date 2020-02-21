@@ -1,6 +1,10 @@
-x int
-y int 
-z int
+//-----------------------------------------------------------------------
+// File Description:
+// Handles all the robot functionality.
+//-----------------------------------------------------------------------
+positionX int
+positionY int 
+positionZ int
 personIdList vector<int>
 
 void moveToCoords -> x, y, z

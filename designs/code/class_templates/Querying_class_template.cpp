@@ -1,3 +1,7 @@
+//-----------------------------------------------------------------------
+// File Description:
+// Handles database querying.
+//-----------------------------------------------------------------------
 query string
 query_dict dictionary
 bad_words list
