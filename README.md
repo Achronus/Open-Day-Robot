@@ -1,60 +1,31 @@
-# Open-Day-Robot
-Brief Overview 
+# Open Day Robot
 
-Robotics functionality:   
+### Contents
+- [Project Details](#Project-Details)
+- [Documentation](#Documentation)
+- [Collaborators](#Collaborators)
 
-Move around the atrium at a set path.  
+### Project Details
+This project utilizies C++, Python and SQL to create a prototype Open Day Robot (ODR) for the University of Lincoln (UoL). It focuses on the TIAGo robot from PAL Robotics and uses the Robot Operating System (ROS). With the combined power of machine learning, speech recognition, facial recognition, person detection and a pathfinding algorithm we created the ability to use a graphical user interface (GUI) to answer questions from prospecting students.
 
-Infrared camera to detect if the person is human/move towards ‘the hot thing that moves’ (humans).  
+Step-by-step ODR interaction:
+- The robot locks onto the closest person and approaches them, upon the person facing the robot it will identify the persons facial features and display the GUI providing them with the option to ask a query. 
+- The robot will listen to the query, search through its database and output relevant information to the screen. 
+- Queries are filtered, ignoring curse words and inappropriate questions. 
+- New queries are added to the database and prospecting students are directed to an academic if the query is unknown. 
+- Users that walk away from the robot or are finished using it are stored as an ID within local memory to avoid approaching them again within the next hour. 
+- In emergency situations such as a fire alarm the robot will move to the nearest designated wall (carefully) and shutdown, avoiding the risk of blocking emergency exits.
 
-Speak to say ‘Hi there! What course are you interested in?’ to greet new people.  
+TIAGo robot components used: torso touchscreen, thermal camera and navigation laser.
 
-  
+Full specifications and all usable components can be found [here](http://pal-robotics.com/robots/tiago/#tiago-configurator).
 
-Visual display and speech recognition backend:  
+Details and progress of the full project can be found on our [Trello](https://trello.com/b/PngEcR5d) board.
 
-Uses an FAQ database to cross reference spoken human questions. 
+**PLEASE NOTE**: this project currently only handles queries that are for Computer Science students and that are native English speakers. Future functionality will allow for additional courses and languages to be processed.
 
-Provide a prompt to speak to a specific staff member/go to another location if the answer doesn’t exist. 
+### Documentation
+_Coming soon!_
 
-Filters out irrelevant questions and stores ones that could be useful for future use. 
-
- 
-
- 
-
-Core Artefact Functionality 
-
-A full breakdown of the artefact is outlined below: 
-
-Robot functionality that achieves the following (C++ or Python – C++ might be better): 
-
-Detects people in the room using infra-red camera. - SHYAM 
-
-Approaches the closest person using motion sensor detectors - LEWIS 
-
-Greets closest person smiles on the touch screen interface mounted to the robot and provides them with information relevant to their request. - CALLUM 
-
-Face 
-
-Database connection  
-
-Once closest individual has finished interacting with the robot, it will begin moving around the room again and find another person to approach - MICHAEL 
-
-Visual display and speech recognition backend (SQL queries and data parsing – Python recommended): 
-
-Uses an FAQ database to cross reference spoken human questions 
-
-Speech/linguistic recognition - RYAN 
-
-FAQ database gathering - JOSH 
-
-Filters out irrelevant questions and stores ones that haven’t been answered yet that could be useful for future use. - NIKKI 
-
-Provides a prompt to speak to a relevant staff member, or directing to another location, if the answer doesn’t exist - JOSH 
-
-Prompts suggestion questions related to the students request. Also, provides common student asked questions - RYAN 
-
- 
-
-ROBOT RISK: If it is in the way of a door when the fire alarm goes off, robot backs up to nearest wall and shuts down automatically, avoiding colliding with humans. 
+### Collaborators
+Ryan Partridge, Lewis Mcgillion, Joshua Wise, Michael Cable, Dominika Prochacka, Callum Godfrey, Shyam Pancholi.
