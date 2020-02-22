@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target personDetection[0m
+[ 33%] Built target navGoal
+[ 66%] Built target tiagoMover
+[ 83%] [32mBuilding CXX object CMakeFiles/personDetection.dir/src/personDetection.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/lewis/tiago_openday_ws/devel/.private/open_day_robot/lib/open_day_robot/personDetection[0m
+[100%] Built target personDetection

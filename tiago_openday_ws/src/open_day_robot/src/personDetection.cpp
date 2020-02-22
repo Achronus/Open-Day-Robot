@@ -5,9 +5,12 @@
 void chatterCallBack(const pal_detection_msgs::Detections2d::ConstPtr& msg){
     ROS_INFO("Person detected");
 
-    //Find the right variables to use
-    //ROS_INFO(msg->detections.x);
-    //ROS_INFO(msg->detections.x);
+    //getting x and y position of the person
+    float xPos = msg->detections.data()->x;
+    float yPos = msg->detections.data()->y;
+
+    ROS_INFO_STREAM(xPos);
+    ROS_INFO_STREAM(yPos);
 }
 
 int main(int argc, char** argv){

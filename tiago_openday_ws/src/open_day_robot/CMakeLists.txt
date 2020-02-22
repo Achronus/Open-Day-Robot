@@ -6,8 +6,8 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   pal_detection_msgs
   geometry_msgs
-  actionlib
   move_base_msgs
+  actionlib
 )
 
 catkin_package(

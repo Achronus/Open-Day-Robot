@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lewis/tiago_openday_ws/src/open_day_robot/cmake-build-debug/devel/setup.sh

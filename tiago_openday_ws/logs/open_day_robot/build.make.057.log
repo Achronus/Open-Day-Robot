@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target navGoal[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/navGoal.dir/src/navGoal.cpp.o[0m
+[ 50%] Built target personDetection
+[ 83%] Built target tiagoMover
+[100%] [32m[1mLinking CXX executable /home/lewis/tiago_openday_ws/devel/.private/open_day_robot/lib/open_day_robot/navGoal[0m
+[100%] Built target navGoal

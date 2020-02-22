@@ -1,0 +1,34 @@
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:6:55:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveBaseAction[m[K’ is not a member of ‘[01m[Kmove_base_msgs[m[K’
+ typedef actionlib::SimpleActionClient<move_base_msgs::[01;31m[KMoveBaseAction[m[K> MoveBaseClient;
+                                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:6:55:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KMoveBaseActionGoal[m[K’
+ typedef actionlib::SimpleActionClient<move_base_msgs::[01;36m[KMoveBaseAction[m[K> MoveBaseClient;
+                                                       [01;36m[K^~~~~~~~~~~~~~[m[K
+                                                       [32m[KMoveBaseActionGoal[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:6:55:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveBaseAction[m[K’ is not a member of ‘[01m[Kmove_base_msgs[m[K’
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:6:55:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KMoveBaseActionGoal[m[K’
+ typedef actionlib::SimpleActionClient<move_base_msgs::[01;36m[KMoveBaseAction[m[K> MoveBaseClient;
+                                                       [01;36m[K^~~~~~~~~~~~~~[m[K
+                                                       [32m[KMoveBaseActionGoal[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:6:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction[01;31m[K>[m[K MoveBaseClient;
+                                                                     [01;31m[K^[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:11:40:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+     MoveBaseClient ac("move_base", true[01;31m[K)[m[K;
+                                        [01;31m[K^[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:13:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KwaitForServer[m[K’ in ‘[01m[Kac[m[K’, which is of non-class type ‘[01m[KMoveBaseClient {aka int}[m[K’
+     while(!ac.[01;31m[KwaitForServer[m[K(ros::Duration(5.0))){
+               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:25:8:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsendGoal[m[K’ in ‘[01m[Kac[m[K’, which is of non-class type ‘[01m[KMoveBaseClient {aka int}[m[K’
+     ac.[01;31m[KsendGoal[m[K(goal);
+        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:27:8:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KwaitForResult[m[K’ in ‘[01m[Kac[m[K’, which is of non-class type ‘[01m[KMoveBaseClient {aka int}[m[K’
+     ac.[01;31m[KwaitForResult[m[K();
+        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:29:11:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetState[m[K’ in ‘[01m[Kac[m[K’, which is of non-class type ‘[01m[KMoveBaseClient {aka int}[m[K’
+     if(ac.[01;31m[KgetState[m[K() == actionlib::SimpleClientGoalState::SUCCEEDED)
+           [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/navGoal.dir/src/navGoal.cpp.o] Error 1
+make[1]: *** [CMakeFiles/navGoal.dir/all] Error 2
+make: *** [all] Error 2

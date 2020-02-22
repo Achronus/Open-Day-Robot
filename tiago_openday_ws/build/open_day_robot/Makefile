@@ -78,6 +78,17 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -89,17 +100,6 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -194,32 +194,6 @@ personDetection/fast:
 .PHONY : personDetection/fast
 
 #=============================================================================
-# Target rules for targets named move_base_msgs_generate_messages_py
-
-# Build rule for target.
-move_base_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_py
-.PHONY : move_base_msgs_generate_messages_py
-
-# fast build rule for target.
-move_base_msgs_generate_messages_py/fast:
-	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make CMakeFiles/move_base_msgs_generate_messages_py.dir/build
-.PHONY : move_base_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named move_base_msgs_generate_messages_eus
-
-# Build rule for target.
-move_base_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_eus
-.PHONY : move_base_msgs_generate_messages_eus
-
-# fast build rule for target.
-move_base_msgs_generate_messages_eus/fast:
-	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make CMakeFiles/move_base_msgs_generate_messages_eus.dir/build
-.PHONY : move_base_msgs_generate_messages_eus/fast
-
-#=============================================================================
 # Target rules for targets named actionlib_generate_messages_py
 
 # Build rule for target.
@@ -270,6 +244,32 @@ actionlib_generate_messages_eus: cmake_check_build_system
 actionlib_generate_messages_eus/fast:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_eus.dir/build.make CMakeFiles/actionlib_generate_messages_eus.dir/build
 .PHONY : actionlib_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_py
+
+# Build rule for target.
+move_base_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_py
+.PHONY : move_base_msgs_generate_messages_py
+
+# fast build rule for target.
+move_base_msgs_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make CMakeFiles/move_base_msgs_generate_messages_py.dir/build
+.PHONY : move_base_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_eus
+
+# Build rule for target.
+move_base_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_eus
+.PHONY : move_base_msgs_generate_messages_eus
+
+# fast build rule for target.
+move_base_msgs_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make CMakeFiles/move_base_msgs_generate_messages_eus.dir/build
+.PHONY : move_base_msgs_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_py
@@ -999,14 +999,14 @@ help:
 	@echo "... list_install_components"
 	@echo "... navGoal"
 	@echo "... personDetection"
-	@echo "... install"
-	@echo "... move_base_msgs_generate_messages_py"
-	@echo "... move_base_msgs_generate_messages_eus"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... test"
 	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... actionlib_generate_messages_lisp"
 	@echo "... actionlib_generate_messages_eus"
+	@echo "... install"
+	@echo "... move_base_msgs_generate_messages_py"
+	@echo "... move_base_msgs_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_eus"

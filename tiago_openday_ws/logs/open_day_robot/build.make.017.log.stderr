@@ -1,0 +1,13 @@
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:11:12:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   while(ros[01;31m[K:[m[Kok()){
+            [01;31m[K^[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:14:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K’
+         goalMsg[01;31m[K->[m[Kpose.position.x = 5;
+                [01;31m[K^~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:15:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K’
+         goalMsg[01;31m[K->[m[Kpose.position.y = 5;
+                [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/navGoal.dir/src/navGoal.cpp.o] Error 1
+make[1]: *** [CMakeFiles/navGoal.dir/all] Error 2
+make: *** [all] Error 2

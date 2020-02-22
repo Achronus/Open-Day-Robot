@@ -1,0 +1,8 @@
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/personDetection.cpp:[m[K In function ‘[01m[Kvoid chatterCallBack(const ConstPtr&)[m[K’:
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/personDetection.cpp:11:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K}[m[K’ token
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/personDetection.dir/src/personDetection.cpp.o] Error 1
+make[1]: *** [CMakeFiles/personDetection.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

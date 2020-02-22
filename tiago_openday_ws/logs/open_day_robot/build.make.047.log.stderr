@@ -1,0 +1,583 @@
+In file included from [01m[K/opt/ros/melodic/include/actionlib/client/client_helpers.h:45:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:47[m[K,
+                 from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:3[m[K:
+/opt/ros/melodic/include/actionlib/client/simple_action_client.h: In instantiation of ‘[01m[Kclass actionlib::SimpleActionClient<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >[m[K’:
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:11:26:[m[K   required from here
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:43:50:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_goal_type [01;31m[KA[m[KctionGoal; \
+                                                  [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:43:50:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_goal_type [01;36m[KActionGoal[m[K; \
+                                                  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:45:52:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_result_type [01;31m[KA[m[KctionResult; \
+                                                    [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:45:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_result_type [01;36m[KActionResult[m[K; \
+                                                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:47:54:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_feedback_type [01;31m[KA[m[KctionFeedback; \
+                                                      [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:47:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_feedback_type [01;36m[KActionFeedback[m[K; \
+                                                      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:50:47:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionGoal> [01;31m[KA[m[KctionGoalConstPtr; \
+                                               [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:50:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionGoal> [01;36m[KActionGoalConstPtr[m[K; \
+                                               [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:51:41:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionGoal> [01;31m[KA[m[KctionGoalPtr; \
+                                         [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:51:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionGoal> [01;36m[KActionGoalPtr[m[K; \
+                                         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:52:41:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Goal> [01;31m[KG[m[KoalConstPtr; \
+                                         [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:52:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Goal> [01;36m[KGoalConstPtr[m[K; \
+                                         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:53:35:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Goal> [01;31m[KG[m[KoalPtr; \
+                                   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:53:35:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Goal> [01;36m[KGoalPtr[m[K; \
+                                   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:55:49:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionResult> [01;31m[KA[m[KctionResultConstPtr; \
+                                                 [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:55:49:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionResult> [01;36m[KActionResultConstPtr[m[K; \
+                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:56:43:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionResult> [01;31m[KA[m[KctionResultPtr; \
+                                           [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:56:43:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionResult> [01;36m[KActionResultPtr[m[K; \
+                                           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:57:43:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Result> [01;31m[KR[m[KesultConstPtr; \
+                                           [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:57:43:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Result> [01;36m[KResultConstPtr[m[K; \
+                                           [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:58:37:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Result> [01;31m[KR[m[KesultPtr; \
+                                     [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:58:37:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Result> [01;36m[KResultPtr[m[K; \
+                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:60:51:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionFeedback> [01;31m[KA[m[KctionFeedbackConstPtr; \
+                                                   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:60:51:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionFeedback> [01;36m[KActionFeedbackConstPtr[m[K; \
+                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:61:45:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionFeedback> [01;31m[KA[m[KctionFeedbackPtr; \
+                                             [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:61:45:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionFeedback> [01;36m[KActionFeedbackPtr[m[K; \
+                                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:62:45:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Feedback> [01;31m[KF[m[KeedbackConstPtr; \
+                                             [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:62:45:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Feedback> [01;36m[KFeedbackConstPtr[m[K; \
+                                             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:63:39:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Feedback> [01;31m[KF[m[KeedbackPtr;
+                                       [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:63:39:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Feedback> [01;36m[KFeedbackPtr[m[K;
+                                       [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:3:0[m[K:
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:81:37:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+     const ResultConstPtr & result)> [01;31m[KSimpleDoneCallback[m[K;
+                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:83:69:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::function<void (const FeedbackConstPtr & feedback)> [01;31m[KSimpleFeedbackCallback[m[K;
+                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/actionlib/client/client_helpers.h:45:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:47[m[K,
+                 from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:3[m[K:
+/opt/ros/melodic/include/actionlib/client/client_helpers.h: In instantiation of ‘[01m[Kclass actionlib::ClientGoalHandle<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >[m[K’:
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:225:15:[m[K   required from ‘[01m[Kclass actionlib::SimpleActionClient<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >[m[K’
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:11:26:[m[K   required from here
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:43:50:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_goal_type [01;31m[KA[m[KctionGoal; \
+                                                  [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:43:50:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_goal_type [01;36m[KActionGoal[m[K; \
+                                                  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:45:52:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_result_type [01;31m[KA[m[KctionResult; \
+                                                    [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:45:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_result_type [01;36m[KActionResult[m[K; \
+                                                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:47:54:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_feedback_type [01;31m[KA[m[KctionFeedback; \
+                                                      [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:47:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_feedback_type [01;36m[KActionFeedback[m[K; \
+                                                      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:50:47:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionGoal> [01;31m[KA[m[KctionGoalConstPtr; \
+                                               [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:50:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionGoal> [01;36m[KActionGoalConstPtr[m[K; \
+                                               [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:51:41:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionGoal> [01;31m[KA[m[KctionGoalPtr; \
+                                         [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:51:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionGoal> [01;36m[KActionGoalPtr[m[K; \
+                                         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:52:41:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Goal> [01;31m[KG[m[KoalConstPtr; \
+                                         [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:52:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Goal> [01;36m[KGoalConstPtr[m[K; \
+                                         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:53:35:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Goal> [01;31m[KG[m[KoalPtr; \
+                                   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:53:35:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Goal> [01;36m[KGoalPtr[m[K; \
+                                   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:55:49:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionResult> [01;31m[KA[m[KctionResultConstPtr; \
+                                                 [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:55:49:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionResult> [01;36m[KActionResultConstPtr[m[K; \
+                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:56:43:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionResult> [01;31m[KA[m[KctionResultPtr; \
+                                           [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:56:43:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionResult> [01;36m[KActionResultPtr[m[K; \
+                                           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:57:43:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Result> [01;31m[KR[m[KesultConstPtr; \
+                                           [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:57:43:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Result> [01;36m[KResultConstPtr[m[K; \
+                                           [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:58:37:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Result> [01;31m[KR[m[KesultPtr; \
+                                     [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:58:37:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Result> [01;36m[KResultPtr[m[K; \
+                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:60:51:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionFeedback> [01;31m[KA[m[KctionFeedbackConstPtr; \
+                                                   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:60:51:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionFeedback> [01;36m[KActionFeedbackConstPtr[m[K; \
+                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:61:45:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionFeedback> [01;31m[KA[m[KctionFeedbackPtr; \
+                                             [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:61:45:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionFeedback> [01;36m[KActionFeedbackPtr[m[K; \
+                                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:62:45:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Feedback> [01;31m[KF[m[KeedbackConstPtr; \
+                                             [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:62:45:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Feedback> [01;36m[KFeedbackConstPtr[m[K; \
+                                             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:63:39:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Feedback> [01;31m[KF[m[KeedbackPtr;
+                                       [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:63:39:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Feedback> [01;36m[KFeedbackPtr[m[K;
+                                       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:21:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_base_msgs::MoveBaseActionGoal {aka struct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ktarget_pose[m[K’
+     goal.[01;31m[Ktarget_pose[m[K.header.frame_id = "base_link";
+          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:22:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_base_msgs::MoveBaseActionGoal {aka struct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ktarget_pose[m[K’
+     goal.[01;31m[Ktarget_pose[m[K.header.stamp = ros::Time::now();
+          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:24:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_base_msgs::MoveBaseActionGoal {aka struct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ktarget_pose[m[K’
+     goal.[01;31m[Ktarget_pose[m[K.pose.position.x = 1.0;
+          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:25:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_base_msgs::MoveBaseActionGoal {aka struct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ktarget_pose[m[K’
+     goal.[01;31m[Ktarget_pose[m[K.pose.orientation.w = 1.0;
+          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:28:12:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveBaseClient {aka class actionlib::SimpleActionClient<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KsendGoal[m[K’; did you mean ‘[01m[KGoal[m[K’?
+     client.[01;31m[KsendGoal[m[K(goal);
+            [01;31m[K^~~~~~~~[m[K
+            [32m[KGoal[m[K
+In file included from [01m[K/opt/ros/melodic/include/actionlib/client/client_helpers.h:45:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:47[m[K,
+                 from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:3[m[K:
+/opt/ros/melodic/include/actionlib/client/action_client.h: In instantiation of ‘[01m[Kclass actionlib::ActionClient<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >[m[K’:
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:133:17:[m[K   required from ‘[01m[Kbool actionlib::SimpleActionClient<ActionSpec>::waitForServer(const ros::Duration&) const [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >][m[K’
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:14:51:[m[K   required from here
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:43:50:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_goal_type [01;31m[KA[m[KctionGoal; \
+                                                  [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:43:50:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_goal_type [01;36m[KActionGoal[m[K; \
+                                                  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:45:52:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_result_type [01;31m[KA[m[KctionResult; \
+                                                    [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:45:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_result_type [01;36m[KActionResult[m[K; \
+                                                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:47:54:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_feedback_type [01;31m[KA[m[KctionFeedback; \
+                                                      [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:47:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_feedback_type [01;36m[KActionFeedback[m[K; \
+                                                      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:50:47:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionGoal> [01;31m[KA[m[KctionGoalConstPtr; \
+                                               [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:50:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionGoal> [01;36m[KActionGoalConstPtr[m[K; \
+                                               [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:51:41:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionGoal> [01;31m[KA[m[KctionGoalPtr; \
+                                         [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:51:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionGoal> [01;36m[KActionGoalPtr[m[K; \
+                                         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:52:41:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Goal> [01;31m[KG[m[KoalConstPtr; \
+                                         [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:52:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Goal> [01;36m[KGoalConstPtr[m[K; \
+                                         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:53:35:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Goal> [01;31m[KG[m[KoalPtr; \
+                                   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:53:35:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Goal> [01;36m[KGoalPtr[m[K; \
+                                   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:55:49:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionResult> [01;31m[KA[m[KctionResultConstPtr; \
+                                                 [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:55:49:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionResult> [01;36m[KActionResultConstPtr[m[K; \
+                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:56:43:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionResult> [01;31m[KA[m[KctionResultPtr; \
+                                           [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:56:43:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionResult> [01;36m[KActionResultPtr[m[K; \
+                                           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:57:43:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Result> [01;31m[KR[m[KesultConstPtr; \
+                                           [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:57:43:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Result> [01;36m[KResultConstPtr[m[K; \
+                                           [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:58:37:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Result> [01;31m[KR[m[KesultPtr; \
+                                     [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:58:37:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Result> [01;36m[KResultPtr[m[K; \
+                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:60:51:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionFeedback> [01;31m[KA[m[KctionFeedbackConstPtr; \
+                                                   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:60:51:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionFeedback> [01;36m[KActionFeedbackConstPtr[m[K; \
+                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:61:45:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionFeedback> [01;31m[KA[m[KctionFeedbackPtr; \
+                                             [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:61:45:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionFeedback> [01;36m[KActionFeedbackPtr[m[K; \
+                                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:62:45:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Feedback> [01;31m[KF[m[KeedbackConstPtr; \
+                                             [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:62:45:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Feedback> [01;36m[KFeedbackConstPtr[m[K; \
+                                             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:63:39:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Feedback> [01;31m[KF[m[KeedbackPtr;
+                                       [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:63:39:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Feedback> [01;36m[KFeedbackPtr[m[K;
+                                       [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:47:0[m[K,
+                 from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:3[m[K:
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:68:72:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::function<void (GoalHandle, const FeedbackConstPtr &)> [01;31m[KFeedbackCallback[m[K;
+                                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:69:60:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::function<void (const ActionGoalConstPtr)> [01;31m[KSendGoalFunc[m[K;
+                                                            [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/actionlib/client/client_helpers.h:45:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:47[m[K,
+                 from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:3[m[K:
+/opt/ros/melodic/include/actionlib/client/client_helpers.h: In instantiation of ‘[01m[Kclass actionlib::GoalManager<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >[m[K’:
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:196:27:[m[K   required from ‘[01m[Kclass actionlib::ActionClient<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >[m[K’
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:133:17:[m[K   required from ‘[01m[Kbool actionlib::SimpleActionClient<ActionSpec>::waitForServer(const ros::Duration&) const [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >][m[K’
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:14:51:[m[K   required from here
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:43:50:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_goal_type [01;31m[KA[m[KctionGoal; \
+                                                  [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:43:50:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_goal_type [01;36m[KActionGoal[m[K; \
+                                                  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:45:52:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_result_type [01;31m[KA[m[KctionResult; \
+                                                    [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:45:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_result_type [01;36m[KActionResult[m[K; \
+                                                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:47:54:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_feedback_type [01;31m[KA[m[KctionFeedback; \
+                                                      [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:47:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_feedback_type [01;36m[KActionFeedback[m[K; \
+                                                      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:50:47:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionGoal> [01;31m[KA[m[KctionGoalConstPtr; \
+                                               [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:50:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionGoal> [01;36m[KActionGoalConstPtr[m[K; \
+                                               [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:51:41:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionGoal> [01;31m[KA[m[KctionGoalPtr; \
+                                         [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:51:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionGoal> [01;36m[KActionGoalPtr[m[K; \
+                                         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:52:41:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Goal> [01;31m[KG[m[KoalConstPtr; \
+                                         [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:52:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Goal> [01;36m[KGoalConstPtr[m[K; \
+                                         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:53:35:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Goal> [01;31m[KG[m[KoalPtr; \
+                                   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:53:35:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Goal> [01;36m[KGoalPtr[m[K; \
+                                   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:55:49:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionResult> [01;31m[KA[m[KctionResultConstPtr; \
+                                                 [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:55:49:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionResult> [01;36m[KActionResultConstPtr[m[K; \
+                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:56:43:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionResult> [01;31m[KA[m[KctionResultPtr; \
+                                           [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:56:43:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionResult> [01;36m[KActionResultPtr[m[K; \
+                                           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:57:43:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Result> [01;31m[KR[m[KesultConstPtr; \
+                                           [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:57:43:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Result> [01;36m[KResultConstPtr[m[K; \
+                                           [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:58:37:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Result> [01;31m[KR[m[KesultPtr; \
+                                     [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:58:37:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Result> [01;36m[KResultPtr[m[K; \
+                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:60:51:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionFeedback> [01;31m[KA[m[KctionFeedbackConstPtr; \
+                                                   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:60:51:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionFeedback> [01;36m[KActionFeedbackConstPtr[m[K; \
+                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:61:45:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionFeedback> [01;31m[KA[m[KctionFeedbackPtr; \
+                                             [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:61:45:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionFeedback> [01;36m[KActionFeedbackPtr[m[K; \
+                                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:62:45:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Feedback> [01;31m[KF[m[KeedbackConstPtr; \
+                                             [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:62:45:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Feedback> [01;36m[KFeedbackConstPtr[m[K; \
+                                             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:63:39:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Feedback> [01;31m[KF[m[KeedbackPtr;
+                                       [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:63:39:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Feedback> [01;36m[KFeedbackPtr[m[K;
+                                       [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:38:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:47[m[K,
+                 from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:3[m[K:
+[01m[K/opt/ros/melodic/include/actionlib/client/client_helpers.h:77:73:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::function<void (GoalHandleT, const FeedbackConstPtr &)> [01;31m[KFeedbackCallback[m[K;
+                                                                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/client/client_helpers.h:78:60:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::function<void (const ActionGoalConstPtr)> [01;31m[KSendGoalFunc[m[K;
+                                                            [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:47:0[m[K,
+                 from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:3[m[K:
+/opt/ros/melodic/include/actionlib/client/action_client.h: In instantiation of ‘[01m[Kclass actionlib::ActionClient<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >[m[K’:
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:133:17:[m[K   required from ‘[01m[Kbool actionlib::SimpleActionClient<ActionSpec>::waitForServer(const ros::Duration&) const [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >][m[K’
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:14:51:[m[K   required from here
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:294:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   void [01;31m[KfeedbackCb[m[K(const ros::MessageEvent<ActionFeedback const> & action_feedback)
+        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:299:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   void [01;31m[KresultCb[m[K(const ros::MessageEvent<ActionResult const> & action_result)
+        [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/actionlib/client/client_helpers.h:45:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:47[m[K,
+                 from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:3[m[K:
+/opt/ros/melodic/include/actionlib/client/client_helpers.h: In instantiation of ‘[01m[Kclass actionlib::CommStateMachine<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >[m[K’:
+[01m[K/opt/ros/melodic/include/actionlib/client/client_goal_handle_imp.h:118:34:[m[K   required from ‘[01m[Kactionlib::CommState actionlib::ClientGoalHandle<ActionSpec>::getCommState() const [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >][m[K’
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:344:13:[m[K   required from ‘[01m[Kactionlib::SimpleClientGoalState actionlib::SimpleActionClient<ActionSpec>::getState() const [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >][m[K’
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:32:24:[m[K   required from here
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:43:50:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_goal_type [01;31m[KA[m[KctionGoal; \
+                                                  [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:43:50:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_goal_type [01;36m[KActionGoal[m[K; \
+                                                  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:45:52:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_result_type [01;31m[KA[m[KctionResult; \
+                                                    [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:45:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_result_type [01;36m[KActionResult[m[K; \
+                                                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:47:54:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef typename ActionSpec::_action_feedback_type [01;31m[KA[m[KctionFeedback; \
+                                                      [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:47:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef typename ActionSpec::_action_feedback_type [01;36m[KActionFeedback[m[K; \
+                                                      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:50:47:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionGoal> [01;31m[KA[m[KctionGoalConstPtr; \
+                                               [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:50:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionGoal> [01;36m[KActionGoalConstPtr[m[K; \
+                                               [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:51:41:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionGoal> [01;31m[KA[m[KctionGoalPtr; \
+                                         [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:51:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionGoal> [01;36m[KActionGoalPtr[m[K; \
+                                         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:52:41:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Goal> [01;31m[KG[m[KoalConstPtr; \
+                                         [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:52:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Goal> [01;36m[KGoalConstPtr[m[K; \
+                                         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:53:35:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_goal_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Goal> [01;31m[KG[m[KoalPtr; \
+                                   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:53:35:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Goal> [01;36m[KGoalPtr[m[K; \
+                                   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:55:49:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionResult> [01;31m[KA[m[KctionResultConstPtr; \
+                                                 [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:55:49:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionResult> [01;36m[KActionResultConstPtr[m[K; \
+                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:56:43:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionResult> [01;31m[KA[m[KctionResultPtr; \
+                                           [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:56:43:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionResult> [01;36m[KActionResultPtr[m[K; \
+                                           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:57:43:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Result> [01;31m[KR[m[KesultConstPtr; \
+                                           [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:57:43:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Result> [01;36m[KResultConstPtr[m[K; \
+                                           [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:58:37:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_result_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Result> [01;31m[KR[m[KesultPtr; \
+                                     [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:58:37:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Result> [01;36m[KResultPtr[m[K; \
+                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:60:51:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const ActionFeedback> [01;31m[KA[m[KctionFeedbackConstPtr; \
+                                                   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:60:51:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const ActionFeedback> [01;36m[KActionFeedbackConstPtr[m[K; \
+                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:61:45:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<ActionFeedback> [01;31m[KA[m[KctionFeedbackPtr; \
+                                             [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:61:45:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<ActionFeedback> [01;36m[KActionFeedbackPtr[m[K; \
+                                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:62:45:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<const Feedback> [01;31m[KF[m[KeedbackConstPtr; \
+                                             [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:62:45:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<const Feedback> [01;36m[KFeedbackConstPtr[m[K; \
+                                             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:63:39:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+   typedef boost::shared_ptr<Feedback> [01;31m[KF[m[KeedbackPtr;
+                                       [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/actionlib/action_definition.h:63:39:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KACTION_DEFINITION[m[K’
+   typedef boost::shared_ptr<Feedback> [01;36m[KFeedbackPtr[m[K;
+                                       [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:38:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:47[m[K,
+                 from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:3[m[K:
+[01m[K/opt/ros/melodic/include/actionlib/client/client_helpers.h:230:32:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[K_action_feedback_type[m[K’ in ‘[01m[Kstruct move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >[m[K’
+     const FeedbackConstPtr &)> [01;31m[KFeedbackCallback[m[K;
+                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:47:0[m[K,
+                 from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:3[m[K:
+/opt/ros/melodic/include/actionlib/client/action_client.h: In instantiation of ‘[01m[Kvoid actionlib::ActionClient<ActionSpec>::initClient(ros::CallbackQueueInterface*) [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >][m[K’:
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:102:15:[m[K   required from ‘[01m[Kactionlib::ActionClient<ActionSpec>::ActionClient(const ros::NodeHandle&, const string&, ros::CallbackQueueInterface*) [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:265:15:[m[K   required from ‘[01m[Kvoid actionlib::SimpleActionClient<ActionSpec>::initSimpleClient(ros::NodeHandle&, const string&, bool) [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:96:21:[m[K   required from ‘[01m[Kactionlib::SimpleActionClient<ActionSpec>::SimpleActionClient(const string&, bool) [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:11:44:[m[K   required from here
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:231:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kactionlib::ActionClient<ActionSpec>::feedbackCb(const ros::MessageEvent<const typename ActionSpec::_action_feedback_type>&)[m[K’ is not a member of ‘[01m[Kactionlib::ActionClient<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >::ActionClientT {aka actionlib::ActionClient<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >}[m[K’
+         [01;31m[K&ActionClientT[m[K::feedbackCb, this, queue);
+         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:233:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kactionlib::ActionClient<ActionSpec>::resultCb(const ros::MessageEvent<const typename ActionSpec::_action_result_type>&)[m[K’ is not a member of ‘[01m[Kactionlib::ActionClient<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >::ActionClientT {aka actionlib::ActionClient<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >}[m[K’
+         [01;31m[K&ActionClientT[m[K::resultCb, this, queue);
+         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:248:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass actionlib::GoalManager<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >[m[K’ has no member named ‘[01m[KregisterSendGoalFunc[m[K’; did you mean ‘[01m[KregisterCancelFunc[m[K’?
+     [01;31m[Kmanager_.registerSendGoalFunc[m[K(boost::bind(&ActionClientT::sendGoalFunc, this, _1));
+     [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KregisterCancelFunc[m[K
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:248:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kactionlib::ActionClient<ActionSpec>::sendGoalFunc(const ActionGoalConstPtr&)[m[K’ is not a member of ‘[01m[Kactionlib::ActionClient<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >::ActionClientT {aka actionlib::ActionClient<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >}[m[K’
+     manager_.registerSendGoalFunc(boost::bind([01;31m[K&ActionClientT[m[K::sendGoalFunc, this, _1));
+                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/actionlib/client/client_helpers.h:277:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:47[m[K,
+                 from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:3[m[K:
+/opt/ros/melodic/include/actionlib/client/comm_state_machine_imp.h: In instantiation of ‘[01m[Kconst GoalStatus* actionlib::CommStateMachine<ActionSpec>::findGoalStatus(const std::vector<actionlib_msgs::GoalStatus_<std::allocator<void> > >&) const [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >; actionlib_msgs::GoalStatus = actionlib_msgs::GoalStatus_<std::allocator<void> >][m[K’:
+[01m[K/opt/ros/melodic/include/actionlib/client/comm_state_machine_imp.h:172:66:[m[K   required from ‘[01m[Kvoid actionlib::CommStateMachine<ActionSpec>::updateStatus(actionlib::CommStateMachine<ActionSpec>::GoalHandleT&, const GoalStatusArrayConstPtr&) [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >; actionlib::CommStateMachine<ActionSpec>::GoalHandleT = actionlib::ClientGoalHandle<move_base_msgs::MoveBaseActionGoal_<std::allocator<void> > >; actionlib_msgs::GoalStatusArrayConstPtr = boost::shared_ptr<const actionlib_msgs::GoalStatusArray_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/melodic/include/actionlib/client/goal_manager_imp.h:120:5:[m[K   required from ‘[01m[Kvoid actionlib::GoalManager<ActionSpec>::updateStatuses(const GoalStatusArrayConstPtr&) [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >; actionlib_msgs::GoalStatusArrayConstPtr = boost::shared_ptr<const actionlib_msgs::GoalStatusArray_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:291:5:[m[K   required from ‘[01m[Kvoid actionlib::ActionClient<ActionSpec>::statusCb(const ros::MessageEvent<const actionlib_msgs::GoalStatusArray_<std::allocator<void> > >&) [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >][m[K’
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:229:9:[m[K   required from ‘[01m[Kvoid actionlib::ActionClient<ActionSpec>::initClient(ros::CallbackQueueInterface*) [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >][m[K’
+[01m[K/opt/ros/melodic/include/actionlib/client/action_client.h:102:15:[m[K   required from ‘[01m[Kactionlib::ActionClient<ActionSpec>::ActionClient(const ros::NodeHandle&, const string&, ros::CallbackQueueInterface*) [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:265:15:[m[K   required from ‘[01m[Kvoid actionlib::SimpleActionClient<ActionSpec>::initSimpleClient(ros::NodeHandle&, const string&, bool) [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/opt/ros/melodic/include/actionlib/client/simple_action_client.h:96:21:[m[K   required from ‘[01m[Kactionlib::SimpleActionClient<ActionSpec>::SimpleActionClient(const string&, bool) [with ActionSpec = move_base_msgs::MoveBaseActionGoal_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:11:44:[m[K   required from here
+[01m[K/opt/ros/melodic/include/actionlib/client/comm_state_machine_imp.h:111:37:[m[K [01;31m[Kerror: [m[Kusing invalid field ‘[01m[Kactionlib::CommStateMachine<ActionSpec>::action_goal_[m[K’
+     if (status_vec[i].goal_id.id == [01;31m[Kaction_goal_[m[K->goal_id.id) {
+                                     [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/navGoal.dir/src/navGoal.cpp.o] Error 1
+make[1]: *** [CMakeFiles/navGoal.dir/all] Error 2
+make: *** [all] Error 2
