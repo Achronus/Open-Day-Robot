@@ -2,58 +2,58 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="open_day_robot" targetName="sensor_msgs_generate_messages_eus" />
       <config projectName="open_day_robot" targetName="pal_detection_msgs_generate_messages_eus" />
-      <config projectName="open_day_robot" targetName="run_tests" />
-      <config projectName="open_day_robot" targetName="roscpp_generate_messages_cpp" />
-      <config projectName="open_day_robot" targetName="personDetection" />
-      <config projectName="open_day_robot" targetName="gmock_main" />
-      <config projectName="open_day_robot" targetName="rosgraph_msgs_generate_messages_nodejs" />
-      <config projectName="open_day_robot" targetName="sensor_msgs_generate_messages_lisp" />
-      <config projectName="open_day_robot" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="open_day_robot" targetName="actionlib_msgs_generate_messages_cpp" />
-      <config projectName="open_day_robot" targetName="tiagoMover" />
-      <config projectName="open_day_robot" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="open_day_robot" targetName="move_base_msgs_generate_messages_nodejs" />
-      <config projectName="open_day_robot" targetName="pal_detection_msgs_generate_messages_cpp" />
-      <config projectName="open_day_robot" targetName="gtest" />
-      <config projectName="open_day_robot" targetName="move_base_msgs_generate_messages_eus" />
-      <config projectName="open_day_robot" targetName="clean_test_results" />
-      <config projectName="open_day_robot" targetName="geometry_msgs_generate_messages_cpp" />
-      <config projectName="open_day_robot" targetName="std_msgs_generate_messages_nodejs" />
-      <config projectName="open_day_robot" targetName="navGoal" />
-      <config projectName="open_day_robot" targetName="actionlib_msgs_generate_messages_py" />
       <config projectName="open_day_robot" targetName="gtest_main" />
-      <config projectName="open_day_robot" targetName="actionlib_msgs_generate_messages_nodejs" />
-      <config projectName="open_day_robot" targetName="move_base_msgs_generate_messages_cpp" />
-      <config projectName="open_day_robot" targetName="move_base_msgs_generate_messages_lisp" />
-      <config projectName="open_day_robot" targetName="roscpp_generate_messages_py" />
-      <config projectName="open_day_robot" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="open_day_robot" targetName="actionlib_msgs_generate_messages_lisp" />
-      <config projectName="open_day_robot" targetName="move_base_msgs_generate_messages_py" />
-      <config projectName="open_day_robot" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="open_day_robot" targetName="sensor_msgs_generate_messages_py" />
       <config projectName="open_day_robot" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="open_day_robot" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="open_day_robot" targetName="gmock_main" />
+      <config projectName="open_day_robot" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="open_day_robot" targetName="move_base_msgs_generate_messages_nodejs" />
+      <config projectName="open_day_robot" targetName="gtest" />
+      <config projectName="open_day_robot" targetName="actionlib_msgs_generate_messages_cpp" />
+      <config projectName="open_day_robot" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="open_day_robot" targetName="pal_detection_msgs_generate_messages_py" />
+      <config projectName="open_day_robot" targetName="move_base_msgs_generate_messages_eus" />
+      <config projectName="open_day_robot" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="open_day_robot" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="open_day_robot" targetName="tests" />
+      <config projectName="open_day_robot" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="open_day_robot" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="open_day_robot" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="open_day_robot" targetName="download_extra_data" />
+      <config projectName="open_day_robot" targetName="pal_detection_msgs_generate_messages_cpp" />
       <config projectName="open_day_robot" targetName="roscpp_generate_messages_lisp" />
       <config projectName="open_day_robot" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="open_day_robot" targetName="pal_detection_msgs_generate_messages_py" />
-      <config projectName="open_day_robot" targetName="gmock" />
-      <config projectName="open_day_robot" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="open_day_robot" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="open_day_robot" targetName="geometry_msgs_generate_messages_lisp" />
       <config projectName="open_day_robot" targetName="pal_detection_msgs_generate_messages_lisp" />
-      <config projectName="open_day_robot" targetName="roscpp_generate_messages_eus" />
-      <config projectName="open_day_robot" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="open_day_robot" targetName="std_msgs_generate_messages_py" />
+      <config projectName="open_day_robot" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="open_day_robot" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="open_day_robot" targetName="move_base_msgs_generate_messages_py" />
+      <config projectName="open_day_robot" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="open_day_robot" targetName="tiagoMover" />
+      <config projectName="open_day_robot" targetName="move_base_msgs_generate_messages_cpp" />
+      <config projectName="open_day_robot" targetName="rosgraph_msgs_generate_messages_lisp" />
       <config projectName="open_day_robot" targetName="rosgraph_msgs_generate_messages_cpp" />
-      <config projectName="open_day_robot" targetName="actionlib_msgs_generate_messages_eus" />
-      <config projectName="open_day_robot" targetName="std_msgs_generate_messages_lisp" />
-      <config projectName="open_day_robot" targetName="download_extra_data" />
-      <config projectName="open_day_robot" targetName="geometry_msgs_generate_messages_nodejs" />
-      <config projectName="open_day_robot" targetName="geometry_msgs_generate_messages_py" />
-      <config projectName="open_day_robot" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="open_day_robot" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="open_day_robot" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="open_day_robot" targetName="gmock" />
+      <config projectName="open_day_robot" targetName="roscpp_generate_messages_py" />
+      <config projectName="open_day_robot" targetName="std_msgs_generate_messages_nodejs" />
       <config projectName="open_day_robot" targetName="doxygen" />
-      <config projectName="open_day_robot" targetName="tests" />
       <config projectName="open_day_robot" targetName="pal_detection_msgs_generate_messages_nodejs" />
+      <config projectName="open_day_robot" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="open_day_robot" targetName="move_base_msgs_generate_messages_lisp" />
+      <config projectName="open_day_robot" targetName="roscpp_generate_messages_eus" />
+      <config projectName="open_day_robot" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="open_day_robot" targetName="personDetection" />
+      <config projectName="open_day_robot" targetName="run_tests" />
+      <config projectName="open_day_robot" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="open_day_robot" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="open_day_robot" targetName="navGoal" />
+      <config projectName="open_day_robot" targetName="clean_test_results" />
+      <config projectName="open_day_robot" targetName="std_msgs_generate_messages_py" />
+      <config projectName="open_day_robot" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="open_day_robot" targetName="geometry_msgs_generate_messages_lisp" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -370,6 +370,10 @@
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CMake Application.move_base_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.move_base_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.move_base_msgs_generate_messages_lisp" />
@@ -405,10 +409,6 @@
       <item itemvalue="CMake Application.std_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.tests" />
       <item itemvalue="CMake Application.tiagoMover" />
-      <item itemvalue="CMake Application.gmock" />
-      <item itemvalue="CMake Application.gmock_main" />
-      <item itemvalue="CMake Application.gtest" />
-      <item itemvalue="CMake Application.gtest_main" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -430,7 +430,8 @@
       <workItem from="1582280299200" duration="86000" />
       <workItem from="1582280718104" duration="872000" />
       <workItem from="1582361024924" duration="1511000" />
-      <workItem from="1582377508771" duration="5887000" />
+      <workItem from="1582377508771" duration="8519000" />
+      <workItem from="1582541200775" duration="775000" />
     </task>
     <servers />
   </component>
@@ -451,16 +452,18 @@
       <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state x="464" y="164" width="992" height="737" key="SettingsEditor/0.25.1920.1008/1920.0.1920.1080@0.25.1920.1008" timestamp="1582211635951" />
-    <state x="654" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1582377509131">
-      <screen x="0" y="25" width="1920" height="1008" />
+    <state x="872" y="941" key="com.intellij.ide.util.TipDialog" timestamp="1582541200025">
+      <screen x="0" y="697" width="2560" height="743" />
     </state>
     <state x="654" y="356" key="com.intellij.ide.util.TipDialog/0.25.1920.1008/1920.0.1920.1080@0.25.1920.1008" timestamp="1582211866779" />
     <state x="654" y="356" key="com.intellij.ide.util.TipDialog/0.25.1920.1008@0.25.1920.1008" timestamp="1582377509131" />
-    <state x="100" y="125" width="1720" height="808" key="dock-window-1" timestamp="1582280727584">
-      <screen x="0" y="25" width="1920" height="1008" />
+    <state x="872" y="941" key="com.intellij.ide.util.TipDialog/2560.672.1920.1080/0.697.2560.743@0.697.2560.743" timestamp="1582541200025" />
+    <state x="2560" y="697" width="1920" height="968" key="dock-window-1" timestamp="1582541341873">
+      <screen x="2560" y="672" width="1920" height="1080" />
     </state>
     <state x="1994" y="0" width="1389" height="685" maximized="true" key="dock-window-1/0.25.1920.1008/1920.0.1920.1080@0.25.1920.1008" timestamp="1582211927832" />
     <state x="100" y="125" width="1720" height="808" key="dock-window-1/0.25.1920.1008@0.25.1920.1008" timestamp="1582280727584" />
+    <state x="2560" y="697" width="1920" height="968" key="dock-window-1/2560.672.1920.1080/0.697.2560.743@0.697.2560.743" timestamp="1582541341873" />
     <state x="1098" y="246" key="search.everywhere.popup" timestamp="1582378936162">
       <screen x="0" y="25" width="1920" height="1008" />
     </state>

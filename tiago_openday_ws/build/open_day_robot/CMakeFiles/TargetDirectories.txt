@@ -1,15 +1,18 @@
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/install/strip.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/list_install_components.dir
-/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/navGoal.dir
-/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/personDetection.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/actionlib_generate_messages_py.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/test.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/actionlib_generate_messages_nodejs.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/actionlib_generate_messages_lisp.dir
+/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/mover.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/actionlib_generate_messages_eus.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/install.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/move_base_msgs_generate_messages_py.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/move_base_msgs_generate_messages_eus.dir
+/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/people_msgs_generate_messages_py.dir
+/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/people_msgs_generate_messages_nodejs.dir
+/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/people_msgs_generate_messages_eus.dir
+/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/people_msgs_generate_messages_cpp.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/actionlib_msgs_generate_messages_py.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/actionlib_msgs_generate_messages_eus.dir
@@ -27,6 +30,7 @@
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/geometry_msgs_generate_messages_eus.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/roscpp_generate_messages_nodejs.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/roscpp_generate_messages_eus.dir
+/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/people_msgs_generate_messages_lisp.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/roscpp_generate_messages_lisp.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/tests.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/edit_cache.dir
@@ -40,6 +44,7 @@
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/clean_test_results.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/sensor_msgs_generate_messages_py.dir
+/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/movetest.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
 /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles/sensor_msgs_generate_messages_eus.dir

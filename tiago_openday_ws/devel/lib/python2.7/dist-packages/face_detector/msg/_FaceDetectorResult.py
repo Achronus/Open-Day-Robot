@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/face_detector/lib/python2.7/dist-packages/face_detector/msg/_FaceDetectorResult.py

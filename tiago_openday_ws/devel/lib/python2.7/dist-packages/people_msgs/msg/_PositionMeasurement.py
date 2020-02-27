@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/people_msgs/lib/python2.7/dist-packages/people_msgs/msg/_PositionMeasurement.py

@@ -84,10 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp">
+		<Unit filename="/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="/home/lewis/tiago_openday_ws/src/open_day_robot/src/personDetection.cpp">
+		<Unit filename="/home/lewis/tiago_openday_ws/src/open_day_robot/src/movetest.cpp">
 			<Option target="src"/>
 		</Unit>
 		<Unit filename="/home/lewis/tiago_openday_ws/src/open_day_robot/src/tiagoMover.cpp">

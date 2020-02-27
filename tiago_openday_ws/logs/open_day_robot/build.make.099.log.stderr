@@ -1,0 +1,23 @@
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:[m[K In member function ‘[01m[Kvoid Robot::callBack(const ConstPtr&)[m[K’:
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:59:41:[m[K [01;35m[Kwarning: [m[Kdecomposition declaration only available with -std=c++1z or -std=gnu++1z
+         people_msgs::PositionMeasurement[01;35m[K[[m[K] people = msg->people;
+                                         [01;35m[K^[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:59:41:[m[K [01;31m[Kerror: [m[Kdecomposition declaration cannot be declared with type ‘[01m[Kpeople_msgs::PositionMeasurement {aka people_msgs::PositionMeasurement_<std::allocator<void> >}[m[K’
+         people_msgs::PositionMeasurement[01;31m[K[][m[K people = msg->people;
+                                         [01;31m[K^~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:59:41:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:59:41:[m[K [01;31m[Kerror: [m[Kempty decomposition declaration
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:59:44:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kpeople[m[K’
+         people_msgs::PositionMeasurement[] [01;31m[Kpeople[m[K = msg->people;
+                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:62:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kpeople[m[K’ was not declared in this scope
+         xPosGoal = [01;31m[Kpeople[m[K[0].pos.x;
+                    [01;31m[K^~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:62:20:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpipe[m[K’
+         xPosGoal = [01;36m[Kpeople[m[K[0].pos.x;
+                    [01;36m[K^~~~~~[m[K
+                    [32m[Kpipe[m[K
+make[2]: *** [CMakeFiles/mover.dir/src/mover.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mover.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

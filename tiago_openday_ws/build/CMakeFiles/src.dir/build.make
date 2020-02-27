@@ -57,31 +57,31 @@ include CMakeFiles/src.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/src.dir/flags.make
 
-CMakeFiles/src.dir/navGoal.cpp.o: CMakeFiles/src.dir/flags.make
-CMakeFiles/src.dir/navGoal.cpp.o: /home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lewis/tiago_openday_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src.dir/navGoal.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/navGoal.cpp.o -c /home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp
+CMakeFiles/src.dir/mover.cpp.o: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/mover.cpp.o: /home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lewis/tiago_openday_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src.dir/mover.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/mover.cpp.o -c /home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp
 
-CMakeFiles/src.dir/navGoal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/navGoal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp > CMakeFiles/src.dir/navGoal.cpp.i
+CMakeFiles/src.dir/mover.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/mover.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp > CMakeFiles/src.dir/mover.cpp.i
 
-CMakeFiles/src.dir/navGoal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/navGoal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp -o CMakeFiles/src.dir/navGoal.cpp.s
+CMakeFiles/src.dir/mover.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/mover.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp -o CMakeFiles/src.dir/mover.cpp.s
 
-CMakeFiles/src.dir/personDetection.cpp.o: CMakeFiles/src.dir/flags.make
-CMakeFiles/src.dir/personDetection.cpp.o: /home/lewis/tiago_openday_ws/src/open_day_robot/src/personDetection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lewis/tiago_openday_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/src.dir/personDetection.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/personDetection.cpp.o -c /home/lewis/tiago_openday_ws/src/open_day_robot/src/personDetection.cpp
+CMakeFiles/src.dir/movetest.cpp.o: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/movetest.cpp.o: /home/lewis/tiago_openday_ws/src/open_day_robot/src/movetest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lewis/tiago_openday_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/src.dir/movetest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/movetest.cpp.o -c /home/lewis/tiago_openday_ws/src/open_day_robot/src/movetest.cpp
 
-CMakeFiles/src.dir/personDetection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/personDetection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lewis/tiago_openday_ws/src/open_day_robot/src/personDetection.cpp > CMakeFiles/src.dir/personDetection.cpp.i
+CMakeFiles/src.dir/movetest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/movetest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lewis/tiago_openday_ws/src/open_day_robot/src/movetest.cpp > CMakeFiles/src.dir/movetest.cpp.i
 
-CMakeFiles/src.dir/personDetection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/personDetection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lewis/tiago_openday_ws/src/open_day_robot/src/personDetection.cpp -o CMakeFiles/src.dir/personDetection.cpp.s
+CMakeFiles/src.dir/movetest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/movetest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lewis/tiago_openday_ws/src/open_day_robot/src/movetest.cpp -o CMakeFiles/src.dir/movetest.cpp.s
 
 CMakeFiles/src.dir/tiagoMover.cpp.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/tiagoMover.cpp.o: /home/lewis/tiago_openday_ws/src/open_day_robot/src/tiagoMover.cpp
@@ -98,15 +98,15 @@ CMakeFiles/src.dir/tiagoMover.cpp.s: cmake_force
 
 # Object files for target src
 src_OBJECTS = \
-"CMakeFiles/src.dir/navGoal.cpp.o" \
-"CMakeFiles/src.dir/personDetection.cpp.o" \
+"CMakeFiles/src.dir/mover.cpp.o" \
+"CMakeFiles/src.dir/movetest.cpp.o" \
 "CMakeFiles/src.dir/tiagoMover.cpp.o"
 
 # External object files for target src
 src_EXTERNAL_OBJECTS =
 
-src: CMakeFiles/src.dir/navGoal.cpp.o
-src: CMakeFiles/src.dir/personDetection.cpp.o
+src: CMakeFiles/src.dir/mover.cpp.o
+src: CMakeFiles/src.dir/movetest.cpp.o
 src: CMakeFiles/src.dir/tiagoMover.cpp.o
 src: CMakeFiles/src.dir/build.make
 src: CMakeFiles/src.dir/link.txt

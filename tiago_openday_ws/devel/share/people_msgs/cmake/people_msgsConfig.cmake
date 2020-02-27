@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/people_msgs/share/people_msgs/cmake/people_msgsConfig.cmake

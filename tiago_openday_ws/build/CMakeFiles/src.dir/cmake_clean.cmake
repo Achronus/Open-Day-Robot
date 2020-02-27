@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/src.dir/navGoal.cpp.o"
-  "CMakeFiles/src.dir/personDetection.cpp.o"
+  "CMakeFiles/src.dir/mover.cpp.o"
+  "CMakeFiles/src.dir/movetest.cpp.o"
   "CMakeFiles/src.dir/tiagoMover.cpp.o"
   "src"
   "src.pdb"

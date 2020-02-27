@@ -168,32 +168,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named navGoal
-
-# Build rule for target.
-navGoal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 navGoal
-.PHONY : navGoal
-
-# fast build rule for target.
-navGoal/fast:
-	$(MAKE) -f CMakeFiles/navGoal.dir/build.make CMakeFiles/navGoal.dir/build
-.PHONY : navGoal/fast
-
-#=============================================================================
-# Target rules for targets named personDetection
-
-# Build rule for target.
-personDetection: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 personDetection
-.PHONY : personDetection
-
-# fast build rule for target.
-personDetection/fast:
-	$(MAKE) -f CMakeFiles/personDetection.dir/build.make CMakeFiles/personDetection.dir/build
-.PHONY : personDetection/fast
-
-#=============================================================================
 # Target rules for targets named actionlib_generate_messages_py
 
 # Build rule for target.
@@ -233,6 +207,19 @@ actionlib_generate_messages_lisp/fast:
 .PHONY : actionlib_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named mover
+
+# Build rule for target.
+mover: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mover
+.PHONY : mover
+
+# fast build rule for target.
+mover/fast:
+	$(MAKE) -f CMakeFiles/mover.dir/build.make CMakeFiles/mover.dir/build
+.PHONY : mover/fast
+
+#=============================================================================
 # Target rules for targets named actionlib_generate_messages_eus
 
 # Build rule for target.
@@ -270,6 +257,58 @@ move_base_msgs_generate_messages_eus: cmake_check_build_system
 move_base_msgs_generate_messages_eus/fast:
 	$(MAKE) -f CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make CMakeFiles/move_base_msgs_generate_messages_eus.dir/build
 .PHONY : move_base_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named people_msgs_generate_messages_py
+
+# Build rule for target.
+people_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 people_msgs_generate_messages_py
+.PHONY : people_msgs_generate_messages_py
+
+# fast build rule for target.
+people_msgs_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_py.dir/build.make CMakeFiles/people_msgs_generate_messages_py.dir/build
+.PHONY : people_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named people_msgs_generate_messages_nodejs
+
+# Build rule for target.
+people_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 people_msgs_generate_messages_nodejs
+.PHONY : people_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+people_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/people_msgs_generate_messages_nodejs.dir/build
+.PHONY : people_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named people_msgs_generate_messages_eus
+
+# Build rule for target.
+people_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 people_msgs_generate_messages_eus
+.PHONY : people_msgs_generate_messages_eus
+
+# fast build rule for target.
+people_msgs_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_eus.dir/build.make CMakeFiles/people_msgs_generate_messages_eus.dir/build
+.PHONY : people_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named people_msgs_generate_messages_cpp
+
+# Build rule for target.
+people_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 people_msgs_generate_messages_cpp
+.PHONY : people_msgs_generate_messages_cpp
+
+# fast build rule for target.
+people_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_cpp.dir/build.make CMakeFiles/people_msgs_generate_messages_cpp.dir/build
+.PHONY : people_msgs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_py
@@ -493,6 +532,19 @@ roscpp_generate_messages_eus/fast:
 .PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named people_msgs_generate_messages_lisp
+
+# Build rule for target.
+people_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 people_msgs_generate_messages_lisp
+.PHONY : people_msgs_generate_messages_lisp
+
+# fast build rule for target.
+people_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_lisp.dir/build.make CMakeFiles/people_msgs_generate_messages_lisp.dir/build
+.PHONY : people_msgs_generate_messages_lisp/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_lisp
 
 # Build rule for target.
@@ -647,6 +699,19 @@ sensor_msgs_generate_messages_py: cmake_check_build_system
 sensor_msgs_generate_messages_py/fast:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named movetest
+
+# Build rule for target.
+movetest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 movetest
+.PHONY : movetest
+
+# fast build rule for target.
+movetest/fast:
+	$(MAKE) -f CMakeFiles/movetest.dir/build.make CMakeFiles/movetest.dir/build
+.PHONY : movetest/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
@@ -908,59 +973,59 @@ gtest/fast:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-src/navGoal.o: src/navGoal.cpp.o
+src/mover.o: src/mover.cpp.o
 
-.PHONY : src/navGoal.o
-
-# target to build an object file
-src/navGoal.cpp.o:
-	$(MAKE) -f CMakeFiles/navGoal.dir/build.make CMakeFiles/navGoal.dir/src/navGoal.cpp.o
-.PHONY : src/navGoal.cpp.o
-
-src/navGoal.i: src/navGoal.cpp.i
-
-.PHONY : src/navGoal.i
-
-# target to preprocess a source file
-src/navGoal.cpp.i:
-	$(MAKE) -f CMakeFiles/navGoal.dir/build.make CMakeFiles/navGoal.dir/src/navGoal.cpp.i
-.PHONY : src/navGoal.cpp.i
-
-src/navGoal.s: src/navGoal.cpp.s
-
-.PHONY : src/navGoal.s
-
-# target to generate assembly for a file
-src/navGoal.cpp.s:
-	$(MAKE) -f CMakeFiles/navGoal.dir/build.make CMakeFiles/navGoal.dir/src/navGoal.cpp.s
-.PHONY : src/navGoal.cpp.s
-
-src/personDetection.o: src/personDetection.cpp.o
-
-.PHONY : src/personDetection.o
+.PHONY : src/mover.o
 
 # target to build an object file
-src/personDetection.cpp.o:
-	$(MAKE) -f CMakeFiles/personDetection.dir/build.make CMakeFiles/personDetection.dir/src/personDetection.cpp.o
-.PHONY : src/personDetection.cpp.o
+src/mover.cpp.o:
+	$(MAKE) -f CMakeFiles/mover.dir/build.make CMakeFiles/mover.dir/src/mover.cpp.o
+.PHONY : src/mover.cpp.o
 
-src/personDetection.i: src/personDetection.cpp.i
+src/mover.i: src/mover.cpp.i
 
-.PHONY : src/personDetection.i
+.PHONY : src/mover.i
 
 # target to preprocess a source file
-src/personDetection.cpp.i:
-	$(MAKE) -f CMakeFiles/personDetection.dir/build.make CMakeFiles/personDetection.dir/src/personDetection.cpp.i
-.PHONY : src/personDetection.cpp.i
+src/mover.cpp.i:
+	$(MAKE) -f CMakeFiles/mover.dir/build.make CMakeFiles/mover.dir/src/mover.cpp.i
+.PHONY : src/mover.cpp.i
 
-src/personDetection.s: src/personDetection.cpp.s
+src/mover.s: src/mover.cpp.s
 
-.PHONY : src/personDetection.s
+.PHONY : src/mover.s
 
 # target to generate assembly for a file
-src/personDetection.cpp.s:
-	$(MAKE) -f CMakeFiles/personDetection.dir/build.make CMakeFiles/personDetection.dir/src/personDetection.cpp.s
-.PHONY : src/personDetection.cpp.s
+src/mover.cpp.s:
+	$(MAKE) -f CMakeFiles/mover.dir/build.make CMakeFiles/mover.dir/src/mover.cpp.s
+.PHONY : src/mover.cpp.s
+
+src/movetest.o: src/movetest.cpp.o
+
+.PHONY : src/movetest.o
+
+# target to build an object file
+src/movetest.cpp.o:
+	$(MAKE) -f CMakeFiles/movetest.dir/build.make CMakeFiles/movetest.dir/src/movetest.cpp.o
+.PHONY : src/movetest.cpp.o
+
+src/movetest.i: src/movetest.cpp.i
+
+.PHONY : src/movetest.i
+
+# target to preprocess a source file
+src/movetest.cpp.i:
+	$(MAKE) -f CMakeFiles/movetest.dir/build.make CMakeFiles/movetest.dir/src/movetest.cpp.i
+.PHONY : src/movetest.cpp.i
+
+src/movetest.s: src/movetest.cpp.s
+
+.PHONY : src/movetest.s
+
+# target to generate assembly for a file
+src/movetest.cpp.s:
+	$(MAKE) -f CMakeFiles/movetest.dir/build.make CMakeFiles/movetest.dir/src/movetest.cpp.s
+.PHONY : src/movetest.cpp.s
 
 src/tiagoMover.o: src/tiagoMover.cpp.o
 
@@ -997,16 +1062,19 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... navGoal"
-	@echo "... personDetection"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... test"
 	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... actionlib_generate_messages_lisp"
+	@echo "... mover"
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... install"
 	@echo "... move_base_msgs_generate_messages_py"
 	@echo "... move_base_msgs_generate_messages_eus"
+	@echo "... people_msgs_generate_messages_py"
+	@echo "... people_msgs_generate_messages_nodejs"
+	@echo "... people_msgs_generate_messages_eus"
+	@echo "... people_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_eus"
@@ -1024,6 +1092,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
+	@echo "... people_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... tests"
 	@echo "... edit_cache"
@@ -1037,6 +1106,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... clean_test_results"
 	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... movetest"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_eus"
@@ -1059,12 +1129,12 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... src/navGoal.o"
-	@echo "... src/navGoal.i"
-	@echo "... src/navGoal.s"
-	@echo "... src/personDetection.o"
-	@echo "... src/personDetection.i"
-	@echo "... src/personDetection.s"
+	@echo "... src/mover.o"
+	@echo "... src/mover.i"
+	@echo "... src/mover.s"
+	@echo "... src/movetest.o"
+	@echo "... src/movetest.i"
+	@echo "... src/movetest.s"
 	@echo "... src/tiagoMover.o"
 	@echo "... src/tiagoMover.i"
 	@echo "... src/tiagoMover.s"

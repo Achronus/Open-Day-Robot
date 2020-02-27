@@ -1,0 +1,92 @@
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:1[m[K:
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:[m[K In member function ‘[01m[Kvoid Robot::callBack(const ConstPtr&)[m[K’:
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:61:25:[m[K [01;31m[Kerror: [m[K‘[01m[KxPos[m[K’ was not declared in this scope
+         ROS_INFO_STREAM([01;31m[Kx[m[KPos);
+                         [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:358:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+     __rosconsole_print_stream_at_location_with_filter__ss__ << [01;36m[Kargs[m[K; \
+                                                                [01;36m[K^~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:406:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K(args); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:579:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+ #define ROS_LOG_STREAM(level, name, args) [01;36m[KROS_LOG_STREAM_COND[m[K(true, level, name, args)
+                                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+ #define ROS_INFO_STREAM(args) [01;36m[KROS_LOG_STREAM[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+                               [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:61:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_STREAM[m[K’
+         [01;36m[KR[m[KOS_INFO_STREAM(xPos);
+         [01;36m[K^[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:61:25:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcos[m[K’
+         ROS_INFO_STREAM([01;36m[Kx[m[KPos);
+                         [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:358:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+     __rosconsole_print_stream_at_location_with_filter__ss__ << [01;36m[Kargs[m[K; \
+                                                                [01;36m[K^~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:406:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K(args); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:579:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+ #define ROS_LOG_STREAM(level, name, args) [01;36m[KROS_LOG_STREAM_COND[m[K(true, level, name, args)
+                                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+ #define ROS_INFO_STREAM(args) [01;36m[KROS_LOG_STREAM[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+                               [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:61:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_STREAM[m[K’
+         [01;36m[KR[m[KOS_INFO_STREAM(xPos);
+         [01;36m[K^[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:62:25:[m[K [01;31m[Kerror: [m[K‘[01m[KyPos[m[K’ was not declared in this scope
+         ROS_INFO_STREAM([01;31m[Ky[m[KPos);
+                         [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:358:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+     __rosconsole_print_stream_at_location_with_filter__ss__ << [01;36m[Kargs[m[K; \
+                                                                [01;36m[K^~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:406:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K(args); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:579:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+ #define ROS_LOG_STREAM(level, name, args) [01;36m[KROS_LOG_STREAM_COND[m[K(true, level, name, args)
+                                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+ #define ROS_INFO_STREAM(args) [01;36m[KROS_LOG_STREAM[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+                               [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:62:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_STREAM[m[K’
+         [01;36m[KR[m[KOS_INFO_STREAM(yPos);
+         [01;36m[K^[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:62:25:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcos[m[K’
+         ROS_INFO_STREAM([01;36m[Ky[m[KPos);
+                         [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:358:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+     __rosconsole_print_stream_at_location_with_filter__ss__ << [01;36m[Kargs[m[K; \
+                                                                [01;36m[K^~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:406:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K(args); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:579:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+ #define ROS_LOG_STREAM(level, name, args) [01;36m[KROS_LOG_STREAM_COND[m[K(true, level, name, args)
+                                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+ #define ROS_INFO_STREAM(args) [01;36m[KROS_LOG_STREAM[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+                               [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:62:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_STREAM[m[K’
+         [01;36m[KR[m[KOS_INFO_STREAM(yPos);
+         [01;36m[K^[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:64:20:[m[K [01;31m[Kerror: [m[K‘[01m[KxPos[m[K’ was not declared in this scope
+         moveToGoal([01;31m[KxPos[m[K, yPos);
+                    [01;31m[K^~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:64:20:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcos[m[K’
+         moveToGoal([01;36m[KxPos[m[K, yPos);
+                    [01;36m[K^~~~[m[K
+                    [32m[Kcos[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:64:26:[m[K [01;31m[Kerror: [m[K‘[01m[KyPos[m[K’ was not declared in this scope
+         moveToGoal(xPos, [01;31m[KyPos[m[K);
+                          [01;31m[K^~~~[m[K
+[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/mover.cpp:64:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcos[m[K’
+         moveToGoal(xPos, [01;36m[KyPos[m[K);
+                          [01;36m[K^~~~[m[K
+                          [32m[Kcos[m[K
+make[2]: *** [CMakeFiles/mover.dir/src/mover.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mover.dir/all] Error 2
+make: *** [all] Error 2

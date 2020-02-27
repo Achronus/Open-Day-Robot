@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/people_msgs/share/common-lisp/ros/people_msgs/msg/_package.lisp

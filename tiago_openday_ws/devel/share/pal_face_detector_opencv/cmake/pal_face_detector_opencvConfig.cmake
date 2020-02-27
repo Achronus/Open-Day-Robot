@@ -1,0 +1,1 @@
+/home/lewis/tiago_openday_ws/devel/.private/pal_face_detector_opencv/share/pal_face_detector_opencv/cmake/pal_face_detector_opencvConfig.cmake

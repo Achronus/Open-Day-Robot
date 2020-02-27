@@ -30,6 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../build" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
@@ -51,6 +52,9 @@
       <option name="presentableId" value="Default" />
       <updated>1582211985894</updated>
       <workItem from="1582211988279" duration="3425000" />
+      <workItem from="1582542355640" duration="5947000" />
+      <workItem from="1582639151169" duration="3753000" />
+      <workItem from="1582802025664" duration="3934000" />
     </task>
     <servers />
   </component>
@@ -66,5 +70,15 @@
       <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state x="464" y="164" width="992" height="737" key="SettingsEditor/0.25.1920.1008/1920.0.1920.1080@0.25.1920.1008" timestamp="1582212269084" />
+    <state x="654" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1582802025539">
+      <screen x="0" y="25" width="1920" height="1008" />
+    </state>
+    <state x="654" y="356" key="com.intellij.ide.util.TipDialog/0.25.1920.1008@0.25.1920.1008" timestamp="1582802025539" />
+    <state x="974" y="547" key="com.intellij.ide.util.TipDialog/2560.672.1920.1080/0.697.2560.743@0.697.2560.743" timestamp="1582639151486" />
+    <state x="2560" y="697" width="1653" height="1008" key="dock-window-1" timestamp="1582817564548">
+      <screen x="0" y="25" width="1920" height="1008" />
+    </state>
+    <state x="0" y="25" width="1878" height="1008" key="dock-window-1/2560.672.1920.1080/0.25.1920.1008@0.25.1920.1008" timestamp="1582548305747" />
+    <state x="2560" y="697" width="1653" height="1008" maximized="true" key="dock-window-1/2560.672.1920.1080/0.697.2560.743@0.697.2560.743" timestamp="1582640656539" />
   </component>
 </project>

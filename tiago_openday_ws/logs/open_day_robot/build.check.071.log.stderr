@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/lewis/tiago_openday_ws/src/open_day_robot/CMakeLists.txt:29 (target_link_libraries):
+  Cannot specify link libraries for target "moveToperson" which is not built
+  by this project.
+
+
+make: *** [cmake_check_build_system] Error 1

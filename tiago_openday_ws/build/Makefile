@@ -123,59 +123,59 @@ src/fast:
 	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/build
 .PHONY : src/fast
 
-navGoal.o: navGoal.cpp.o
+mover.o: mover.cpp.o
 
-.PHONY : navGoal.o
-
-# target to build an object file
-navGoal.cpp.o:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/navGoal.cpp.o
-.PHONY : navGoal.cpp.o
-
-navGoal.i: navGoal.cpp.i
-
-.PHONY : navGoal.i
-
-# target to preprocess a source file
-navGoal.cpp.i:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/navGoal.cpp.i
-.PHONY : navGoal.cpp.i
-
-navGoal.s: navGoal.cpp.s
-
-.PHONY : navGoal.s
-
-# target to generate assembly for a file
-navGoal.cpp.s:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/navGoal.cpp.s
-.PHONY : navGoal.cpp.s
-
-personDetection.o: personDetection.cpp.o
-
-.PHONY : personDetection.o
+.PHONY : mover.o
 
 # target to build an object file
-personDetection.cpp.o:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/personDetection.cpp.o
-.PHONY : personDetection.cpp.o
+mover.cpp.o:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/mover.cpp.o
+.PHONY : mover.cpp.o
 
-personDetection.i: personDetection.cpp.i
+mover.i: mover.cpp.i
 
-.PHONY : personDetection.i
+.PHONY : mover.i
 
 # target to preprocess a source file
-personDetection.cpp.i:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/personDetection.cpp.i
-.PHONY : personDetection.cpp.i
+mover.cpp.i:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/mover.cpp.i
+.PHONY : mover.cpp.i
 
-personDetection.s: personDetection.cpp.s
+mover.s: mover.cpp.s
 
-.PHONY : personDetection.s
+.PHONY : mover.s
 
 # target to generate assembly for a file
-personDetection.cpp.s:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/personDetection.cpp.s
-.PHONY : personDetection.cpp.s
+mover.cpp.s:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/mover.cpp.s
+.PHONY : mover.cpp.s
+
+movetest.o: movetest.cpp.o
+
+.PHONY : movetest.o
+
+# target to build an object file
+movetest.cpp.o:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/movetest.cpp.o
+.PHONY : movetest.cpp.o
+
+movetest.i: movetest.cpp.i
+
+.PHONY : movetest.i
+
+# target to preprocess a source file
+movetest.cpp.i:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/movetest.cpp.i
+.PHONY : movetest.cpp.i
+
+movetest.s: movetest.cpp.s
+
+.PHONY : movetest.s
+
+# target to generate assembly for a file
+movetest.cpp.s:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/movetest.cpp.s
+.PHONY : movetest.cpp.s
 
 tiagoMover.o: tiagoMover.cpp.o
 
@@ -213,12 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... src"
 	@echo "... edit_cache"
-	@echo "... navGoal.o"
-	@echo "... navGoal.i"
-	@echo "... navGoal.s"
-	@echo "... personDetection.o"
-	@echo "... personDetection.i"
-	@echo "... personDetection.s"
+	@echo "... mover.o"
+	@echo "... mover.i"
+	@echo "... mover.s"
+	@echo "... movetest.o"
+	@echo "... movetest.i"
+	@echo "... movetest.s"
 	@echo "... tiagoMover.o"
 	@echo "... tiagoMover.i"
 	@echo "... tiagoMover.s"

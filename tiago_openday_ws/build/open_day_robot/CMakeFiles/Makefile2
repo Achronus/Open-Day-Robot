@@ -60,80 +60,6 @@ CMAKE_SOURCE_DIR = /home/lewis/tiago_openday_ws/src/open_day_robot
 CMAKE_BINARY_DIR = /home/lewis/tiago_openday_ws/build/open_day_robot
 
 #=============================================================================
-# Target rules for target CMakeFiles/navGoal.dir
-
-# All Build rule for target.
-CMakeFiles/navGoal.dir/all:
-	$(MAKE) -f CMakeFiles/navGoal.dir/build.make CMakeFiles/navGoal.dir/depend
-	$(MAKE) -f CMakeFiles/navGoal.dir/build.make CMakeFiles/navGoal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles --progress-num=12,13 "Built target navGoal"
-.PHONY : CMakeFiles/navGoal.dir/all
-
-# Include target in all.
-all: CMakeFiles/navGoal.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/navGoal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/navGoal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
-.PHONY : CMakeFiles/navGoal.dir/rule
-
-# Convenience name for target.
-navGoal: CMakeFiles/navGoal.dir/rule
-
-.PHONY : navGoal
-
-# clean rule for target.
-CMakeFiles/navGoal.dir/clean:
-	$(MAKE) -f CMakeFiles/navGoal.dir/build.make CMakeFiles/navGoal.dir/clean
-.PHONY : CMakeFiles/navGoal.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/navGoal.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/personDetection.dir
-
-# All Build rule for target.
-CMakeFiles/personDetection.dir/all:
-	$(MAKE) -f CMakeFiles/personDetection.dir/build.make CMakeFiles/personDetection.dir/depend
-	$(MAKE) -f CMakeFiles/personDetection.dir/build.make CMakeFiles/personDetection.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles --progress-num=14,15 "Built target personDetection"
-.PHONY : CMakeFiles/personDetection.dir/all
-
-# Include target in all.
-all: CMakeFiles/personDetection.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/personDetection.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/personDetection.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
-.PHONY : CMakeFiles/personDetection.dir/rule
-
-# Convenience name for target.
-personDetection: CMakeFiles/personDetection.dir/rule
-
-.PHONY : personDetection
-
-# clean rule for target.
-CMakeFiles/personDetection.dir/clean:
-	$(MAKE) -f CMakeFiles/personDetection.dir/build.make CMakeFiles/personDetection.dir/clean
-.PHONY : CMakeFiles/personDetection.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/personDetection.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/actionlib_generate_messages_py.dir
 
 # All Build rule for target.
@@ -230,6 +156,43 @@ clean: CMakeFiles/actionlib_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/mover.dir
+
+# All Build rule for target.
+CMakeFiles/mover.dir/all:
+	$(MAKE) -f CMakeFiles/mover.dir/build.make CMakeFiles/mover.dir/depend
+	$(MAKE) -f CMakeFiles/mover.dir/build.make CMakeFiles/mover.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles --progress-num=12,13 "Built target mover"
+.PHONY : CMakeFiles/mover.dir/all
+
+# Include target in all.
+all: CMakeFiles/mover.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mover.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mover.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
+.PHONY : CMakeFiles/mover.dir/rule
+
+# Convenience name for target.
+mover: CMakeFiles/mover.dir/rule
+
+.PHONY : mover
+
+# clean rule for target.
+CMakeFiles/mover.dir/clean:
+	$(MAKE) -f CMakeFiles/mover.dir/build.make CMakeFiles/mover.dir/clean
+.PHONY : CMakeFiles/mover.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/mover.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/actionlib_generate_messages_eus.dir
 
 # All Build rule for target.
@@ -322,6 +285,134 @@ CMakeFiles/move_base_msgs_generate_messages_eus.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/move_base_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/people_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+CMakeFiles/people_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_py.dir/build.make CMakeFiles/people_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_py.dir/build.make CMakeFiles/people_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles --progress-num= "Built target people_msgs_generate_messages_py"
+.PHONY : CMakeFiles/people_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/people_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/people_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
+.PHONY : CMakeFiles/people_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+people_msgs_generate_messages_py: CMakeFiles/people_msgs_generate_messages_py.dir/rule
+
+.PHONY : people_msgs_generate_messages_py
+
+# clean rule for target.
+CMakeFiles/people_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_py.dir/build.make CMakeFiles/people_msgs_generate_messages_py.dir/clean
+.PHONY : CMakeFiles/people_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/people_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/people_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+CMakeFiles/people_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/people_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/people_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles --progress-num= "Built target people_msgs_generate_messages_nodejs"
+.PHONY : CMakeFiles/people_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/people_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/people_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
+.PHONY : CMakeFiles/people_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+people_msgs_generate_messages_nodejs: CMakeFiles/people_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : people_msgs_generate_messages_nodejs
+
+# clean rule for target.
+CMakeFiles/people_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/people_msgs_generate_messages_nodejs.dir/clean
+.PHONY : CMakeFiles/people_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/people_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/people_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+CMakeFiles/people_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_eus.dir/build.make CMakeFiles/people_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_eus.dir/build.make CMakeFiles/people_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles --progress-num= "Built target people_msgs_generate_messages_eus"
+.PHONY : CMakeFiles/people_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/people_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/people_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
+.PHONY : CMakeFiles/people_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+people_msgs_generate_messages_eus: CMakeFiles/people_msgs_generate_messages_eus.dir/rule
+
+.PHONY : people_msgs_generate_messages_eus
+
+# clean rule for target.
+CMakeFiles/people_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_eus.dir/build.make CMakeFiles/people_msgs_generate_messages_eus.dir/clean
+.PHONY : CMakeFiles/people_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/people_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/people_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/people_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_cpp.dir/build.make CMakeFiles/people_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_cpp.dir/build.make CMakeFiles/people_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles --progress-num= "Built target people_msgs_generate_messages_cpp"
+.PHONY : CMakeFiles/people_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/people_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/people_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
+.PHONY : CMakeFiles/people_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+people_msgs_generate_messages_cpp: CMakeFiles/people_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : people_msgs_generate_messages_cpp
+
+# clean rule for target.
+CMakeFiles/people_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_cpp.dir/build.make CMakeFiles/people_msgs_generate_messages_cpp.dir/clean
+.PHONY : CMakeFiles/people_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/people_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
@@ -875,6 +966,38 @@ clean: CMakeFiles/roscpp_generate_messages_eus.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/people_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+CMakeFiles/people_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_lisp.dir/build.make CMakeFiles/people_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_lisp.dir/build.make CMakeFiles/people_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles --progress-num= "Built target people_msgs_generate_messages_lisp"
+.PHONY : CMakeFiles/people_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/people_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/people_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
+.PHONY : CMakeFiles/people_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+people_msgs_generate_messages_lisp: CMakeFiles/people_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : people_msgs_generate_messages_lisp
+
+# clean rule for target.
+CMakeFiles/people_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f CMakeFiles/people_msgs_generate_messages_lisp.dir/build.make CMakeFiles/people_msgs_generate_messages_lisp.dir/clean
+.PHONY : CMakeFiles/people_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/people_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/roscpp_generate_messages_lisp.dir
 
 # All Build rule for target.
@@ -1255,6 +1378,43 @@ CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/movetest.dir
+
+# All Build rule for target.
+CMakeFiles/movetest.dir/all:
+	$(MAKE) -f CMakeFiles/movetest.dir/build.make CMakeFiles/movetest.dir/depend
+	$(MAKE) -f CMakeFiles/movetest.dir/build.make CMakeFiles/movetest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles --progress-num=14,15 "Built target movetest"
+.PHONY : CMakeFiles/movetest.dir/all
+
+# Include target in all.
+all: CMakeFiles/movetest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/movetest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/movetest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lewis/tiago_openday_ws/build/open_day_robot/CMakeFiles 0
+.PHONY : CMakeFiles/movetest.dir/rule
+
+# Convenience name for target.
+movetest: CMakeFiles/movetest.dir/rule
+
+.PHONY : movetest
+
+# clean rule for target.
+CMakeFiles/movetest.dir/clean:
+	$(MAKE) -f CMakeFiles/movetest.dir/build.make CMakeFiles/movetest.dir/clean
+.PHONY : CMakeFiles/movetest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/movetest.dir/clean
 
 .PHONY : clean
 
