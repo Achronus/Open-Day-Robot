@@ -1,0 +1,14 @@
+[SSH]
+UseSsh=true
+Host=
+User=
+Port=22
+PKeyFile=
+Password=
+
+[MySQL]
+MySqlHost=127.0.0.1
+MySqlUser=
+MySqlPassword=
+MySqlDatabase=open-day-robot
+MySqlPort=3306
