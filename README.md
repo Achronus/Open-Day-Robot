@@ -20,8 +20,6 @@ TIAGo robot components used: torso touchscreen, thermal camera and navigation la
 
 Full specifications and all usable components can be found [here](http://pal-robotics.com/robots/tiago/#tiago-configurator).
 
-Details and progress of the full project can be found on our [Trello](https://trello.com/b/PngEcR5d) board.
-
 **PLEASE NOTE**: this project currently only handles queries that are for Computer Science students and that are native English speakers. Future functionality will allow for additional courses and languages to be processed.
 
 ### Documentation
