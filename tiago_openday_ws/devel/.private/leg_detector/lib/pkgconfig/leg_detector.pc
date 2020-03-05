@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/devel/.private/leg_detector
-
-Name: leg_detector
-Description: Description of leg_detector
-Version: 1.2.0
-Cflags: -I/home/lewis/tiago_openday_ws/devel/.private/leg_detector/include -I/home/lewis/tiago_openday_ws/src/people/leg_detector/include
-Libs: -L${prefix}/lib 
-Requires: dynamic_reconfigure geometry_msgs message_filters people_msgs people_tracking_filter roscpp sensor_msgs std_msgs tf visualization_msgs

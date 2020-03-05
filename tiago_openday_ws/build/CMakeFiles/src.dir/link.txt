@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/src.dir/mover.cpp.o CMakeFiles/src.dir/movetest.cpp.o CMakeFiles/src.dir/tiagoMover.cpp.o  -o src 

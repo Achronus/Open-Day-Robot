@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/tiago_pick_demo/include/tiago_pick_demo/PickUpPoseAction.h

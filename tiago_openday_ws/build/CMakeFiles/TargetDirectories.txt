@@ -1,3 +1,0 @@
-/home/lewis/tiago_openday_ws/build/CMakeFiles/rebuild_cache.dir
-/home/lewis/tiago_openday_ws/build/CMakeFiles/src.dir
-/home/lewis/tiago_openday_ws/build/CMakeFiles/edit_cache.dir

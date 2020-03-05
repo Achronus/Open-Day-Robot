@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/install
-
-Name: pal_device_msgs
-Description: Description of pal_device_msgs
-Version: 0.12.14
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime std_msgs actionlib_msgs

@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/aruco_msgs/include/aruco_msgs/Marker.h

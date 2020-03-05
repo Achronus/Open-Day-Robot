@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/people_msgs/share/roseus/ros/people_msgs/msg/PositionMeasurement.l

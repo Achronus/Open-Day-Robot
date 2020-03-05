@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/humanoid_nav_msgs/share/gennodejs/ros/humanoid_nav_msgs/msg/ExecFootstepsActionResult.js

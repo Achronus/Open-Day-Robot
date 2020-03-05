@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/pal_statistics_msgs/share/common-lisp/ros/pal_statistics_msgs/msg/StatisticsValues.lisp

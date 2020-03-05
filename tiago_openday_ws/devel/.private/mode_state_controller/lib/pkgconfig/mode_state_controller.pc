@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/devel/.private/mode_state_controller
-
-Name: mode_state_controller
-Description: Description of mode_state_controller
-Version: 0.3.18
-Cflags: -I/home/lewis/tiago_openday_ws/devel/.private/mode_state_controller/include -I/home/lewis/tiago_openday_ws/src/ros_controllers/mode_state_controller/include
-Libs: -L${prefix}/lib -lmode_state_controller
-Requires: realtime_tools hardware_interface pluginlib controller_interface sensor_msgs pal_hardware_interfaces

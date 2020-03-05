@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/leg_detector/include/leg_detector/LegDetectorConfig.h

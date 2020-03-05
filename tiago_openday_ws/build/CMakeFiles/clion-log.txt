@@ -1,4 +1,0 @@
-/home/lewis/Downloads/CLion-2019.3.3/clion-2019.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX:PATH=/home/lewis/tiago_openday_ws/devel -G "CodeBlocks - Unix Makefiles" /home/lewis/tiago_openday_ws/src/open_day_robot/src
--- Configuring done
--- Generating done
--- Build files have been written to: /home/lewis/tiago_openday_ws/build

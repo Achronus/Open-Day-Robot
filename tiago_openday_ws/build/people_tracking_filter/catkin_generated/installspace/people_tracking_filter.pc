@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/install
-
-Name: people_tracking_filter
-Description: Description of people_tracking_filter
-Version: 1.2.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lpeople_tracking_filter
-Requires: geometry_msgs message_filters people_msgs roscpp sensor_msgs std_msgs tf

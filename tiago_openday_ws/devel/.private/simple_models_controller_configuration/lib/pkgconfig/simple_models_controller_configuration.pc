@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/devel/.private/simple_models_controller_configuration
-
-Name: simple_models_controller_configuration
-Description: Description of simple_models_controller_configuration
-Version: 0.0.18
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/install
-
-Name: robot_pose
-Description: Description of robot_pose
-Version: 1.0.5
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

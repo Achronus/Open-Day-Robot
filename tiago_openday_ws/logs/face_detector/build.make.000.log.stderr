@@ -1,4 +1,0 @@
-[01m[K/home/lewis/tiago_openday_ws/src/people/face_detector/src/faces.cpp:[m[K In constructor ‘[01m[Kpeople::Faces::Faces()[m[K’:
-[01m[K/home/lewis/tiago_openday_ws/src/people/face_detector/src/faces.cpp:54:18:[m[K [01;35m[Kwarning: [m[Kpassing NULL to non-pointer argument 1 of ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const allocator_type&) [with _Tp = people::Face; _Alloc = std::allocator<people::Face>; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<people::Face>][m[K’ [[01;35m[K-Wconversion-null[m[K]
-   cam_model_(NULL[01;35m[K)[m[K
-                  [01;35m[K^[m[K

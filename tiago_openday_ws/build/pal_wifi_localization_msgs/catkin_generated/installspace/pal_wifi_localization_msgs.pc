@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/install
-
-Name: pal_wifi_localization_msgs
-Description: Description of pal_wifi_localization_msgs
-Version: 0.12.14
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime nav_msgs geometry_msgs

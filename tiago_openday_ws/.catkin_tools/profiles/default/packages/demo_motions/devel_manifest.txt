@@ -1,6 +1,0 @@
-tiago_tutorials/demo_motions
-/home/lewis/tiago_openday_ws/devel/.private/demo_motions/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
-/home/lewis/tiago_openday_ws/devel/.private/demo_motions/lib/pkgconfig/demo_motions.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/demo_motions.pc
-/home/lewis/tiago_openday_ws/devel/.private/demo_motions/lib/demo_motions/run_loop_node /home/lewis/tiago_openday_ws/devel/lib/demo_motions/run_loop_node
-/home/lewis/tiago_openday_ws/devel/.private/demo_motions/share/demo_motions/cmake/demo_motionsConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/demo_motions/cmake/demo_motionsConfig-version.cmake
-/home/lewis/tiago_openday_ws/devel/.private/demo_motions/share/demo_motions/cmake/demo_motionsConfig.cmake /home/lewis/tiago_openday_ws/devel/share/demo_motions/cmake/demo_motionsConfig.cmake

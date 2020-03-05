@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/devel/.private/forward_command_controller
-
-Name: forward_command_controller
-Description: Description of forward_command_controller
-Version: 0.3.18
-Cflags: -I/home/lewis/tiago_openday_ws/src/ros_controllers/forward_command_controller/include
-Libs: -L${prefix}/lib 
-Requires: controller_interface hardware_interface std_msgs realtime_tools

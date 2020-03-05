@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/face_detector/share/roseus/ros/face_detector/msg/FaceDetectorGoal.l

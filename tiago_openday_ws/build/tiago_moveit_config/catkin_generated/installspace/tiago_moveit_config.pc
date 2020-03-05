@@ -1,8 +1,0 @@
-prefix=/home/lewis/tiago_openday_ws/install
-
-Name: tiago_moveit_config
-Description: Description of tiago_moveit_config
-Version: 1.0.3
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/pal_gripper/share/pal_gripper/cmake/pal_gripperConfig-version.cmake

@@ -1,6 +1,0 @@
-[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:5:20:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleAction[m[K’ in namespace ‘[01m[Kactionlib[m[K’ does not name a template type
- typedef actionlib::[01;31m[KSimpleAction[m[K<move_base_messages::MoveBaseActionGoal> MoveBaseClient
-                    [01;31m[K^~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/navGoal.dir/src/navGoal.cpp.o] Error 1
-make[1]: *** [CMakeFiles/navGoal.dir/all] Error 2
-make: *** [all] Error 2

@@ -1,6 +1,0 @@
-[35m[1mScanning dependencies of target mover[0m
-[ 16%] [32mBuilding CXX object CMakeFiles/mover.dir/src/mover.cpp.o[0m
-[ 50%] Built target tiagoMover
-[ 83%] Built target movetest
-[100%] [32m[1mLinking CXX executable /home/lewis/tiago_openday_ws/devel/.private/open_day_robot/lib/open_day_robot/mover[0m
-[100%] Built target mover

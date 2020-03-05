@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/face_detector/share/gennodejs/ros/face_detector/msg/FaceDetectorAction.js

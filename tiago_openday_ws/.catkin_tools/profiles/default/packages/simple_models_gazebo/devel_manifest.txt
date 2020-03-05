@@ -1,9 +1,0 @@
-simple_models_robot/simple_models_gazebo
-/home/lewis/tiago_openday_ws/devel/.private/simple_models_gazebo/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
-/home/lewis/tiago_openday_ws/devel/.private/simple_models_gazebo/lib/libgazebo_diff_drive.so /home/lewis/tiago_openday_ws/devel/lib/libgazebo_diff_drive.so
-/home/lewis/tiago_openday_ws/devel/.private/simple_models_gazebo/lib/libgazebo_four_wheel_diff_drive_plugin.so /home/lewis/tiago_openday_ws/devel/lib/libgazebo_four_wheel_diff_drive_plugin.so
-/home/lewis/tiago_openday_ws/devel/.private/simple_models_gazebo/lib/libgazebo_diff_drive_plugin.so /home/lewis/tiago_openday_ws/devel/lib/libgazebo_diff_drive_plugin.so
-/home/lewis/tiago_openday_ws/devel/.private/simple_models_gazebo/lib/libgazebo_zero_wheel_vel.so /home/lewis/tiago_openday_ws/devel/lib/libgazebo_zero_wheel_vel.so
-/home/lewis/tiago_openday_ws/devel/.private/simple_models_gazebo/lib/pkgconfig/simple_models_gazebo.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/simple_models_gazebo.pc
-/home/lewis/tiago_openday_ws/devel/.private/simple_models_gazebo/share/simple_models_gazebo/cmake/simple_models_gazeboConfig.cmake /home/lewis/tiago_openday_ws/devel/share/simple_models_gazebo/cmake/simple_models_gazeboConfig.cmake
-/home/lewis/tiago_openday_ws/devel/.private/simple_models_gazebo/share/simple_models_gazebo/cmake/simple_models_gazeboConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/simple_models_gazebo/cmake/simple_models_gazeboConfig-version.cmake

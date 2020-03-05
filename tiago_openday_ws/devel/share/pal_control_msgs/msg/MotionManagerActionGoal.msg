@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/pal_control_msgs/share/pal_control_msgs/msg/MotionManagerActionGoal.msg

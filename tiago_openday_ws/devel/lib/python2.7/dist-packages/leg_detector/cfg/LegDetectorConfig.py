@@ -1,1 +1,0 @@
-/home/lewis/tiago_openday_ws/devel/.private/leg_detector/lib/python2.7/dist-packages/leg_detector/cfg/LegDetectorConfig.py

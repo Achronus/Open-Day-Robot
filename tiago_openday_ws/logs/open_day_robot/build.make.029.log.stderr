@@ -1,7 +1,0 @@
-[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/lewis/tiago_openday_ws/src/open_day_robot/src/navGoal.cpp:9:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
-   while(!ros::ok()[01;31m[K{[m[K
-                   [01;31m[K^[m[K
-make[2]: *** [CMakeFiles/navGoal.dir/src/navGoal.cpp.o] Error 1
-make[1]: *** [CMakeFiles/navGoal.dir/all] Error 2
-make: *** [all] Error 2

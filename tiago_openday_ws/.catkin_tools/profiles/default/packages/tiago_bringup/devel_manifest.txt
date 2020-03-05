@@ -1,5 +1,0 @@
-tiago_robot/tiago_bringup
-/home/lewis/tiago_openday_ws/devel/.private/tiago_bringup/cmake.lock /home/lewis/tiago_openday_ws/devel/./cmake.lock
-/home/lewis/tiago_openday_ws/devel/.private/tiago_bringup/lib/pkgconfig/tiago_bringup.pc /home/lewis/tiago_openday_ws/devel/lib/pkgconfig/tiago_bringup.pc
-/home/lewis/tiago_openday_ws/devel/.private/tiago_bringup/share/tiago_bringup/cmake/tiago_bringupConfig-version.cmake /home/lewis/tiago_openday_ws/devel/share/tiago_bringup/cmake/tiago_bringupConfig-version.cmake
-/home/lewis/tiago_openday_ws/devel/.private/tiago_bringup/share/tiago_bringup/cmake/tiago_bringupConfig.cmake /home/lewis/tiago_openday_ws/devel/share/tiago_bringup/cmake/tiago_bringupConfig.cmake
