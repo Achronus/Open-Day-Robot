@@ -1,0 +1,251 @@
+/* Core Styles */
+body {
+  background-color: #efefef !important;
+}
+.spacing {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.vertical-spacing {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.margin-spacing {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.return-btn button {
+  background-color: #4288c4;
+  border: none;
+  color: #fff;
+  font-family: myriad-pro, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.return-btn button .fa-arrow-alt-circle-left {
+  font-size: 26px;
+  width: 2em;
+}
+
+/* Header Styles */
+.row.blue-bg {
+  background-color: #072249;
+}
+.logo {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.title-text h2 {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 26px;
+  text-align: center;
+}
+.title-text h2 span {
+  font-size: 14px;
+  vertical-align: top;
+}
+
+/* Error Page Styles */
+.error-message {
+  text-align: center;
+}
+.error-message .fa-dizzy {
+  font-size: 80px;
+  color: #000;
+  padding-bottom: 10px;
+}
+.error-message p {
+  font-family: myraid-pro, sans-serif;
+  font-size: 34px;
+  color: #000;
+  text-align: center;
+}
+.error-message p span {
+  color: #4288c4;
+}
+
+/* Results Page Styles */
+.results-description {
+  padding-bottom: 15px;
+}
+.results-description p {
+  font-family: myraid-pro, sans-serif;
+  font-size: 20px;
+  color: #000;
+  text-align: left;
+}
+.results-title h2 {
+  font-family: myriad-pro, sans-serif;
+  font-size: 36px;
+  color: #000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Combined Prototype Styles */
+.container-fluid.white-bg {
+  background-color: #fff;
+}
+.question-title h3 {
+  font-family: myriad-pro, sans-serif;
+  font-size: 36px;
+  color: #000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.question {
+  background-color: #f4f4f4;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.question.left {
+  border-radius: 5px 0 0 5px;
+}
+.question.right {
+  border-radius: 0 5px 5px 0;
+}
+.question p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #4288c4;
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+}
+.question.right p {
+  text-align: right;
+}
+
+/* Prototype One Styles */
+.category {
+  background-color: #fff;
+  height: 30vh;
+  padding: 0 !important;
+}
+.category.first {
+  background-color: #286090;
+}
+.category.first button {
+  color: #fff;
+}
+.category button {
+  background-color: inherit;
+  border: none;
+  color: #000;
+  font-family: myriad-pro, sans-serif;
+  font-size: 48px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.category button {
+  color: #000;
+}
+.p-one.return-btn {
+  margin-top: 10px;
+}
+/* Prototype Two Styles */
+.search-title {
+  padding-top: 20px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.search-title.white-bg {
+  border-radius: 20px;
+  background-color: #fff;
+}
+.search-title input {
+  font-family: myriad-pro, sans-serif;
+  font-size: 32px;
+  color: #000;
+  border: none;
+  width: 100%;
+}
+.search-title hr {
+  margin-right: 50px;
+}
+.search-title input::placeholder {
+  font-family: myriad-pro, sans-serif;
+  font-size: 32px;
+  color: #000;
+  opacity: 1;
+}
+.col-lg-1.search-icon {
+  position: absolute;
+  z-index: 1;
+  top: 158px;
+  left: 835px;
+}
+.search-icon button {
+  background: none;
+  border: none;
+}
+.fa-search {
+  background-color: #4288c4;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 140px;
+  padding: 40px;
+}
+
+/* Prototype Three Styles */
+.question-title p {
+  font-family: myriad-pro, sans-serif;
+  font-size: 32px;
+  color: #000;
+  text-align: center;
+  padding-top: 25px;
+}
+.proto-three.question-title h3 {
+  padding-bottom: 40px;
+}
+.speech-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+  font-size: 75px;
+  color: #4288c4;
+  left: 43%;
+  background: #fff;
+	position: relative;
+  text-align: center;
+}
+.pulse-ring {
+  content: '';
+  width: 140px;
+  height: 140px;
+  border: 5px solid #4288c4;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  animation: pulse infinite 2s;
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1, 1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+    opacity: 0;
+  }
+}
