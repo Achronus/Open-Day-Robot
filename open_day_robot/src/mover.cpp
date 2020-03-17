@@ -1,17 +1,14 @@
 #include <ros/ros.h>
-#include <people_msgs/PositionMeasurementArray.h>
-#include <people_msgs/PositionMeasurement.h>
 #include <move_base_msgs/MoveBaseAction.h>
 #include <actionlib/client/simple_action_client.h>
-#include <std_msgs/Float64.h>
 
 typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;
 
-void moveToGoal(double xGoal, double yGoal){
-    //Creating the client for moving
+void move(double x, double y, double w){
+    //telling the action client that we want to spin a thread by default
     MoveBaseClient ac("move_base", true);
 
-    //waiting for the action client server to come up
+    //waiting for the action server to come up
     while(!ac.waitForServer(ros::Duration(5.0))){
         ROS_INFO("Waiting for the move_base action server to come up");
     }
@@ -19,58 +16,51 @@ void moveToGoal(double xGoal, double yGoal){
     //creating a goal message
     move_base_msgs::MoveBaseGoal goal;
 
-    //setting goal variables
-    goal.target_pose.header.frame_id = "base_link";
+    //changing goal message
+    //map: coords are locations on the map
+    goal.target_pose.header.frame_id = "map";
     goal.target_pose.header.stamp = ros::Time::now();
 
-    //!! Change to leg detection !!
-    goal.target_pose.pose.position.x = xGoal - 1.0;
-    goal.target_pose.pose.position.y = yGoal - 1.0;
+    //setting x,y and orientation
+    goal.target_pose.pose.position.x = x;
+    goal.target_pose.pose.position.y = y;
+    goal.target_pose.pose.orientation.w = w;
 
-    ROS_INFO_STREAM(goal.target_pose.pose.position.x);
-    ROS_INFO_STREAM(goal.target_pose.pose.position.y);
-
-    //sending the goal and waiting for the result
     ROS_INFO("Sending goal");
     ac.sendGoal(goal);
+    //waiting for the goal to return
     ac.waitForResult();
 
-    //checking the result of the goal
-    if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED) {
-        ROS_INFO("Destination reached");
-    }
-    else{
-        ROS_INFO("Failed to reach the destination");
-    }
+    //if it succeeds
+    if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
+        ROS_INFO("Moved");
+    else
+        ROS_INFO("Failed to move");
+
+    //sleep for 10 seconds - can be changed to stop the robot between movements
+    ros::Duration(10).sleep();
+
 }
-
-class Robot{
-public:
-    Robot(){
-        ros::NodeHandle n;
-        sub = n.subscribe("/people_tracker_measurements", 1000, &Robot::callBack, this);
-    }
-private:
-    ros::Subscriber sub;
-    double xPosGoal;
-    double yPosGoal;
-    void callBack(const people_msgs::PositionMeasurementArray::ConstPtr& msg){
-        ROS_INFO("Person detected at: ");
-
-        std::vector<people_msgs::PositionMeasurement> people = msg->people;
-        //getting x and y position of the person
-        xPosGoal = people[0].pos.x;
-        xPosGoal = people[0].pos.x;
-
-        moveToGoal(xPosGoal, yPosGoal);
-    }
-};
 
 int main(int argc, char** argv){
-    ros::init(argc, argv, "tiago");
-    Robot tiago;
-    ros::spin();
+    //initialising ros
+    ros::init(argc, argv, "simple_navigation_goals");
 
+    //while ros is running okay
+    while (ros::ok()) {
+        //array of locations to be sent to the robot
+        float locations[4][3]{
+                {4, 0, 1},
+                {-4, 0, 0.5},
+                {4, -6.5, 1},
+                -4, -9, 0.5
+        };
+
+        //iterating through the array, calling move with each location
+        for (int i = 0; i < 4; i++) {
+            move(locations[i][0], locations[i][1], locations[i][2]);
+
+        }
+    }
     return 0;
 }
-

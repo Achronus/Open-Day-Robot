@@ -23,9 +23,3 @@ include_directories(
 
 add_executable(mover src/mover.cpp)
 target_link_libraries(mover ${catkin_LIBRARIES})
-
-add_executable(tiagoMover src/tiagoMover.cpp)
-target_link_libraries(tiagoMover ${catkin_LIBRARIES})
-
-add_executable(movetest src/movetest.cpp)
-target_link_libraries(movetest ${catkin_LIBRARIES})
