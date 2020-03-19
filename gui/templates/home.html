@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="row vertical-spacing justify-content-center">
+      <div class="col-lg-5 mx-4 category first">
+        <form action="#" method="POST">
+          <input id="uni-btn" name="category" type="submit" value="University">
+        </form>
+        </div><!-- /.category -->
+        <div class="col-lg-5 mx-4 category">
+          <form action="#" method="POST">
+            <input id="det-btn" name="category" type="submit" value="Course Details">
+          </form>
+        </div><!-- /.category -->
+      </div><!-- /.row -->
+
+      <div class="row vertical-spacing justify-content-center">
+        <div class="col-lg-5 mx-4 category">
+          <form action="#" method="POST">
+            <input id="acc-btn" name="category" type="submit" value="Accommodation">
+          </form>
+        </div><!-- /.category -->
+        <div class="col-lg-5 mx-4 category">
+          <form action="#" method="POST">
+            <input id="oth-btn" name="category" type="submit" value="Other">
+          </form>
+        </div><!-- /.category -->
+      </div><!-- /.row -->
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="container-fluid white-bg margin-spacing vertical-spacing">
+      <div class="row">
+        <div class="col-lg-12 results-title">
+          <h2>When can I apply for accommodation?</h2>
+        </div><!-- /.results-title -->
+      </div><!-- /.row -->
+      <div class="row">
+        <div class="col-lg-12 results-description">
+          <p>{{ session.get('answer') }}</p>
+        </div><!-- /.results-description -->
+      </div><!-- /.row -->
+      <div class="row justify-content-center">
+        <div class="col-lg-8 return-btn">
+          <a id="back-btn" href="{{ url_for('home') }}"><i class="far fa-arrow-alt-circle-left"></i> Go back and try a different question</a>
+        </div><!-- /.return-btn -->
+      </div><!-- /.row -->
+    </div> <!-- /.container-content -->
+{% endblock %}
