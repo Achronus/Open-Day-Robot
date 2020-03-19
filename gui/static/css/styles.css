@@ -4,6 +4,7 @@ body {
 }
 a {
   color: inherit !important;
+  text-decoration: none;
 }
 .spacing {
   padding-left: 20px;
@@ -19,19 +20,20 @@ a {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.return-btn button {
+.return-btn a {
   background-color: #4288c4;
   border: none;
-  color: #fff;
+  color: #fff !important;
   font-family: myriad-pro, sans-serif;
   font-size: 28px;
   text-align: center;
   width: 100%;
   border-radius: 10px;
-  padding-top: 8px;
+  padding-top: 4px;
   padding-bottom: 8px;
+  display: block;
 }
-.return-btn button .fa-arrow-alt-circle-left {
+.return-btn a .fa-arrow-alt-circle-left {
   font-size: 26px;
   width: 2em;
 }
@@ -115,13 +117,10 @@ a {
   margin-top: 6px;
   margin-bottom: 6px;
 }
-.question.left {
-  border-radius: 5px 0 0 5px;
+.question {
+  border-radius: 5px;
 }
-.question.right {
-  border-radius: 0 5px 5px 0;
-}
-.question p {
+.question input#question {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   color: #4288c4;
@@ -129,9 +128,8 @@ a {
   padding-top: 8px;
   padding-bottom: 8px;
   margin-bottom: 0;
-}
-.question.right p {
-  text-align: right;
+  background: inherit;
+  border: none;
 }
 
 /* Prototype One Styles */
@@ -143,10 +141,10 @@ a {
 .category.first {
   background-color: #286090;
 }
-.category.first a#uni-btn {
+.category.first #uni-btn {
   color: #fff !important;
 }
-.category a {
+.category input {
   background-color: inherit;
   border: none;
   color: #000;
