@@ -21,21 +21,16 @@ private:
     ros::Subscriber sub;
     int imageHeight = 480; // height of person_detector/debug image in rows
     int imageWidth = 640; // width of person_detector/debug image in columns
-    float centreX;
-    float centreY;
+    int centreX = 0;
 
     //Callback from odom subscriber
     void callBack(const pal_detection_msgs::Detections2d::ConstPtr &msg){
         geometry_msgs::Twist pubMsg;
-
-        int tempX = msg->detections.data()->x;
-        int tempY = msg->detections.data()->y;
-        int tempWidth = msg->detections.data()->width;
-        int tempHeight = msg->detections.data()->height;
+        const pal_detection_msgs::Detection2d* detection = msg->detections.data();
 
         //finding the centre coords of the person
-        centreX = tempX + (tempWidth / 2);
-        centreY = tempY + (tempHeight / 2);
+        centreX = detection->x + (detection->width / 2);
+        ROS_INFO_STREAM(centreX);
 
         if(centreX > (imageWidth*0.45) && centreX < (imageWidth*0.55)){
             //move forward
