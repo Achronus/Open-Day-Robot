@@ -218,3 +218,6 @@ target_link_libraries(legdetection ${catkin_LIBRARIES})
 
 add_executable(persondetection src/persondetection.cpp)
 target_link_libraries(persondetection ${catkin_LIBRARIES})
+
+add_executable(facedetection src/facedetection.cpp)
+target_link_libraries(facedetection ${catkin_LIBRARIES})
