@@ -1,28 +1,36 @@
 {% extends "layout.html" %}
 {% block content %}
-    <div class="row vertical-spacing justify-content-center">
-      <div class="col-lg-5 mx-4 category first">
-        <form action="#" method="POST">
-          <input id="uni-btn" name="category" type="submit" value="University">
-        </form>
-        </div><!-- /.category -->
-        <div class="col-lg-5 mx-4 category">
-          <form action="#" method="POST">
-            <input id="det-btn" name="category" type="submit" value="Course Details">
-          </form>
-        </div><!-- /.category -->
+    <div class="container-fluid margin-spacing">
+      <div class="row">
+          <div class="col-lg-11 search-title white-bg">
+            <form action="#" method="POST" id="search-form">
+              <input type="text" id="searchbar" name="question" placeholder="What can I help you with today?">
+            </form>
+            <hr>
+          </div><!-- /.search-title -->
+          <div class="col-lg-1 search-icon">
+            <button id="search-btn" type="submit" name="search-btn" form="search-form">
+              <i class="fas fa-search"></i>
+            </button>
+          </div><!-- /.search-icon -->
       </div><!-- /.row -->
+    </div><!-- /.search-container -->
 
-      <div class="row vertical-spacing justify-content-center">
-        <div class="col-lg-5 mx-4 category">
-          <form action="#" method="POST">
-            <input id="acc-btn" name="category" type="submit" value="Accommodation">
-          </form>
-        </div><!-- /.category -->
-        <div class="col-lg-5 mx-4 category">
-          <form action="#" method="POST">
-            <input id="oth-btn" name="category" type="submit" value="Other">
-          </form>
-        </div><!-- /.category -->
+    <div class="container-fluid white-bg margin-spacing vertical-spacing">
+      <div class="row">
+        <div class="col-lg-12 question-title">
+          <h3>Recently asked questions...</h3>
+        </div><!-- /.question-title -->
       </div><!-- /.row -->
+  
+      {% for question in popular_queries %}
+      <div class="row justify-content-center">
+        <div class="col-lg-10 question left">
+          <form action="#" method="POST">
+          <input id="question" name="popular_query" type="submit" value="{{ question }}">
+          </form>
+        </div><!-- /.question -->
+      </div><!-- /.row -->
+      {% endfor %}
+    </div><!-- /.question-container-->
 {% endblock %}
