@@ -81,6 +81,21 @@ class Database:
       question_list.append(question[0])
     return question_list
 
+
+  #-----------------------------------------------------------------------
+  # Function Title: get_all_questions()
+  #-----------------------------------------------------------------------
+  def get_all_questions(self):
+    """
+    Returns a list of all questions in the database.
+    """
+    question_list = []
+    all_questions_sql = "SELECT question FROM questions"
+    self._cursor.execute(all_questions_sql)
+    for question in self._cursor.fetchall():
+      question_list.append(question[0])
+    return question_list
+
   #-----------------------------------------------------------------------
   # Function Title: find_answer()
   #-----------------------------------------------------------------------
