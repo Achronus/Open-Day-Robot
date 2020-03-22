@@ -1,0 +1,15 @@
+
+[SSH]
+UseSsh=true
+Host=[IP_ADDRESS]
+User=[USERNAME]
+Port=22
+PKeyFile=[SSH_PRIVATE_KEY]
+Password=[SSH_PRIVATE_KEY_PASSWORD]
+
+[MySQL]
+MySqlHost=127.0.0.1
+MySqlUser=[SQL_USERNAME]
+MySqlPassword=[SQL_PASSWORD]
+MySqlDatabase=[SQL_DATABASE_NAME]
+MySqlPort=3306
