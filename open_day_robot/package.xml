@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>open_day_robot</name>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <description>The open_day_robot package</description>
-  <maintainer email="lewis@todo.todo">lewis</maintainer>
-  <license>TODO</license>
+  <maintainer email="lewismcgillion@gmail.todo">Lewis McGillion</maintainer>
+  <license>GPLv3</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
@@ -34,10 +34,5 @@
   <exec_depend>actionlib</exec_depend>
   <exec_depend>people_msgs</exec_depend>
 
-
-  <!-- The export tag contains other, unspecified, tags -->
-  <export>
-    <!-- Other tools can request additional information be placed here -->
-
-  </export>
+  <export></export>
 </package>

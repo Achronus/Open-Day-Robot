@@ -11,15 +11,11 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib
 )
 
-catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES open_day_robot
-#  CATKIN_DEPENDS actionLib geometry_msgs move_base_msgs pal_detection_msgs roscpp rospy
-#  DEPENDS system_lib
-)
-include_directories(
-  ${catkin_INCLUDE_DIRS}
-)
+catkin_package()
+include_directories(${catkin_INCLUDE_DIRS})
 
-add_executable(mover src/mover.cpp)
-target_link_libraries(mover ${catkin_LIBRARIES})
+add_executable(patrol src/tiagopatrol.cpp)
+target_link_libraries(patrol ${catkin_LIBRARIES})
+
+add_executable(persondetection src/persondetection.cpp)
+target_link_libraries(persondetection ${catkin_LIBRARIES})

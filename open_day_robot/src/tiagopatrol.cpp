@@ -49,11 +49,12 @@ int main(int argc, char** argv){
     //while ros is running okay
     while (ros::ok()) {
         //array of locations to be sent to the robot
+        //can be changed to represent different locations on the map
         float locations[4][3]{
                 {4, 0, 1},
                 {-4, 0, 0.5},
                 {4, -6.5, 1},
-                -4, -9, 0.5
+                {-4, -9, 0.5}
         };
 
         //iterating through the array, calling move with each location
