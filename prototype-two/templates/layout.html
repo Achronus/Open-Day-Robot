@@ -17,10 +17,10 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div id="main-container" class="container-fluid">
     <div class="row blue-bg spacing">
       <div class="col-lg-4 logo align-self-center">
-        <a href="{{ url_for('home') }}">
+        <a href="{{ url_for('main.index') }}">
           <img src="{{ url_for('static', filename='images/uol-logo-small.jpg') }}" alt="University of Lincoln Logo">
         </a>
       </div><!-- /.logo -->

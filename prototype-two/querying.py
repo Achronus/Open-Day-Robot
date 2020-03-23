@@ -3,7 +3,7 @@
 # File Description: Handles all user query functionality.
 # Author: Ryan Partridge
 #-----------------------------------------------------------------------
-from database import Database
+from gui.database import Database
 import fuzzywuzzy
 from fuzzywuzzy import process
 import pandas as pd
@@ -36,10 +36,10 @@ class Querying():
   #-----------------------------------------------------------------------
   def set_bad_words_list(self):
     """
-    Used to create the bad words list from the bad words list text file.
+    Used to create the bad words list from bad words database table.
     """
     # Get the file path
-    bw_file = os.getcwd() + "\\bad-words.txt"
+    bw_file = os.getcwd() + "\\gui\\bad-words.txt"
 
     # Read the file and store the values
     df = pd.read_csv(bw_file)

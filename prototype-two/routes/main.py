@@ -3,13 +3,14 @@
 # File Description: Handles the creation of each pages functionality.
 # Author: Ryan Partridge
 #-----------------------------------------------------------------------
-from flask import Flask, render_template, redirect, request, url_for, session, jsonify
-from database import Database
-from querying import Querying
+from flask import (
+	Blueprint, render_template, redirect, request, url_for, session
+)
+from gui.database import Database
+from gui.querying import Querying
 
 # Set core variables
-app = Flask(__name__)
-app.secret_key = b'dGxW25@#AQ9Zk0Q%WZzj1Xd9P0LeXv' # Needed for storing sessions
+main = Blueprint('main', __name__)
 
 # Create class instances
 db = Database()
@@ -18,23 +19,23 @@ q = Querying()
 #-----------------------------------------------------------------------
 # Home Page Link
 #-----------------------------------------------------------------------
-@app.route("/", methods=["POST", "GET"])
-def home():
+@main.route("/", methods=["POST", "GET"])
+def index():
 	if request.method == "POST":
 		# Get category and redirect to results page
 		if 'question' in request.form:
 			query = request.form['question']
 			# Length of query is too small
 			if len(query) <= 15:
-				return redirect(url_for("error"))
+				return redirect(url_for("main.error"))
 			# Exacty query
 			elif q.query_timeout(query):
 				session['query'] = query
-				return redirect(url_for("results"))
+				return redirect(url_for("main.results"))
 			# Likely queries
 			else:
 				session['likely_queries'] = q.calculated_likelihood(query, percentage=40)
-				return redirect(url_for("likely_questions"))
+				return redirect(url_for("main.likely_questions"))
 
 		# If popular query selected, get the query and go to results
 		elif 'popular_query' in request.form:
@@ -45,29 +46,34 @@ def home():
 			q.query_frequency(popular_query)
 
 			# Move to results page
-			return redirect(url_for("results"))
+			return redirect(url_for("main.results"))
 
 	else:
 		# Go to home page
-		return render_template("home.html", popular_queries=q.popular_queries())
+		return render_template("index.html", popular_queries=q.popular_queries())
 
 #-----------------------------------------------------------------------
 # Error Page Link
 #-----------------------------------------------------------------------
-@app.route("/error")
+@main.route("/error")
 def error():
 	return render_template("error.html")
 
 #-----------------------------------------------------------------------
 # Likely Questions Page Link
 #-----------------------------------------------------------------------
-@app.route("/likely-questions", methods=["POST", "GET"])
+@main.route("/likely-questions", methods=["POST", "GET"])
 def likely_questions():
 	if request.method == "POST":
 		# Get query and pass it to results
 		query = request.form['query']
 		session['query'] = query
-		return redirect(url_for("results"))
+
+		# Recalulate popularity order
+		q.query_frequency(query)
+
+		# Move to results page
+		return redirect(url_for("main.results"))
 	else:
 		# Go to questions page
 		return render_template("likely-questions.html")
@@ -75,7 +81,7 @@ def likely_questions():
 #-----------------------------------------------------------------------
 # Results Page Link
 #-----------------------------------------------------------------------
-@app.route("/results")
+@main.route("/results")
 def results():
 	# Get questions and set answer session
 	query = session.get('query')
@@ -84,7 +90,3 @@ def results():
 
 	# Go to results page
 	return render_template("results.html")
-
-# Run application
-if __name__ == "__main__":
-	app.run(debug=True)
