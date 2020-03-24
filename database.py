@@ -115,3 +115,14 @@ class Database:
       add_sql = "INSERT INTO new_questions (id, question, created_at) VALUES({}, '{}', '{}')".format(question_id, new_question, created_at)
       self._cursor.execute(add_sql)
       self._connection.commit() # Save changes
+
+  def get_bad_words(self):
+    """
+    Returns a list of bad words.
+    """
+    bad_words_sql = "SELECT word FROM bad_words"
+    self._cursor.execute(bad_words_sql)
+    bad_words = []
+    for word in self._cursor.fetchall():
+      bad_words.append(word[0])
+    return bad_words
