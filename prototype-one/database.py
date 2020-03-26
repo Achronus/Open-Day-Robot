@@ -19,7 +19,7 @@ class Database:
   def __init__(self):
     """Create connection to remote mysql database."""
     config = configparser.ConfigParser()  # Information to create connection here
-    config.read("gui/database.config")
+    config.read("database.config")
     
     # MySQL Settings
     if "SSH" in config.sections() and "MySQL" in config.sections():

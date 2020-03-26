@@ -6,7 +6,7 @@
 from flask import Flask
 import os, secrets
 
-from .routes.main import main
+from routes.main import main
 
 #-----------------------------------------------------------------------
 # Function name: create_app()

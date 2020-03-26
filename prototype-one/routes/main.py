@@ -6,7 +6,7 @@
 from flask import (
 	Blueprint, render_template, redirect, request, url_for, session
 )
-from gui.database import Database
+from database import Database
 
 # Set page as blueprint
 main = Blueprint('main', __name__)
