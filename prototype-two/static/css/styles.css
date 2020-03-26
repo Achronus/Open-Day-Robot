@@ -42,6 +42,10 @@ a {
 }
 #main-container {
   max-width: 1024px !important;
+  display: none;
+}
+#main-container.loaded {
+  display: block;
 }
 
 /* Header Styles */
@@ -137,6 +141,8 @@ a {
   background: inherit;
   border: none;
 }
+
+/* Welcome Screen */
 #welcome-screen .modal-content {
   height: 100%;
 }
@@ -168,6 +174,33 @@ a {
   from { 
     width: 0;
   }
+}
+
+/* Preloader */
+#preloader .modal-content {
+  height: 100%;
+}
+#preloader .modal-content .modal-body {
+  display: flex;
+  background: #072249;
+  flex-direction: column;
+}
+#preloader .modal-content .modal-body .components {
+  margin: auto;
+  text-align: center;
+}
+#preloader .modal-content .modal-body .fa-spinner {
+  color: #7f99bf;
+  font-size: 80px;
+  margin: auto;
+  text-align: center;
+}
+#preloader .modal-content .modal-body h1 {
+  font-family: myriad-pro, sans-serif;
+  font-size: 24px;
+  color: #7f99bf;
+  text-align: center;
+  padding-top: 30px;
 }
 
 /* Prototype Two Styles */

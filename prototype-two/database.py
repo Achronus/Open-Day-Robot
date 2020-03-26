@@ -11,7 +11,9 @@ import configparser, paramiko, pymysql, sshtunnel, time, datetime
 class Database:
   """
   Connector class using MYSQL to connect to our cloud database to get 
-  information about user questions.
+  information about user questions.\n
+  Functions: (7) __init__(), close(), get_category_questions(),
+  get_all_questions(), find_answer(), add_new_question(), get_bad_words()
   """
   #-----------------------------------------------------------------------
   # Function Title: __init__()
@@ -19,7 +21,7 @@ class Database:
   def __init__(self):
     """Create connection to remote mysql database."""
     config = configparser.ConfigParser()  # Information to create connection here
-    config.read("gui/database.config")
+    config.read("database.config")
     
     # MySQL Settings
     if "SSH" in config.sections() and "MySQL" in config.sections():
@@ -106,7 +108,8 @@ class Database:
     """
     answer_sql = "SELECT description FROM questions WHERE question='{}'".format(question)
     self._cursor.execute(answer_sql)
-    return self._cursor.fetchone()[0]
+    result = self._cursor.fetchone()[0]
+    return result
 
   #-----------------------------------------------------------------------
   # Function Title: add_new_question()
@@ -130,3 +133,20 @@ class Database:
       add_sql = "INSERT INTO new_questions (id, question, created_at) VALUES({}, '{}', '{}')".format(question_id, new_question, created_at)
       self._cursor.execute(add_sql)
       self._connection.commit() # Save changes
+  
+  #-----------------------------------------------------------------------
+  # Function Title: get_bad_words()
+  #-----------------------------------------------------------------------
+  def get_bad_words(self):
+    """
+    Returns a list of bad words.
+    """
+    bad_words_sql = "SELECT word FROM bad_words"
+    self._cursor.execute(bad_words_sql)
+    bad_words = []
+    
+    # Search through database table and append bad words to list
+    for word in self._cursor.fetchall():
+      bad_words.append(word[0])
+    
+    return bad_words

@@ -6,8 +6,8 @@
 from flask import (
 	Blueprint, render_template, redirect, request, url_for, session
 )
-from gui.database import Database
-from gui.querying import Querying
+from database import Database
+from querying import Querying
 
 # Set core variables
 main = Blueprint('main', __name__)
@@ -30,7 +30,14 @@ def index():
 				return redirect(url_for("main.error"))
 			# Exacty query
 			elif q.query_timeout(query):
+				# Run query timeout and set the session query
+				q.query_timeout(query)
 				session['query'] = query
+
+				# Recalculate popularity order 
+				q.query_frequency(query)
+
+				# Move to results page
 				return redirect(url_for("main.results"))
 			# Likely queries
 			else:

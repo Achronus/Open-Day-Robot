@@ -3,11 +3,9 @@
 # File Description: Handles all user query functionality.
 # Author: Ryan Partridge
 #-----------------------------------------------------------------------
-from gui.database import Database
+from database import Database
 import fuzzywuzzy
 from fuzzywuzzy import process
-import pandas as pd
-import os
 
 #-----------------------------------------------------------------------
 # Class Title: Querying()
@@ -16,36 +14,19 @@ class Querying():
   """
   Used to manage users queries to the GUI by calculating the right output 
   and return it to the user. Takes a query as input.\n
-  Functions: (8) __init__(), set_bad_words_list(), query_timeout(), 
-  filter_query(), set_query_dict(), query_frequency(), popular_queries(), 
+  Functions: (7) __init__(), query_timeout(), filter_query(), 
+  set_query_dict(), query_frequency(), popular_queries(), 
   calculated_likelihood()
   """
   #-----------------------------------------------------------------------
   # Function Title: __init__()
   #-----------------------------------------------------------------------
   def __init__(self):
-    self.bad_words_list = self.set_bad_words_list()
-    self.query_dict = {}
     self.db = Database()
+    self.query_dict = {}
 
     # Set query_dict values
     self.set_query_dict()
-
-  #-----------------------------------------------------------------------
-  # Function Title: set_bad_words_list()
-  #-----------------------------------------------------------------------
-  def set_bad_words_list(self):
-    """
-    Used to create the bad words list from bad words database table.
-    """
-    # Get the file path
-    bw_file = os.getcwd() + "\\gui\\bad-words.txt"
-
-    # Read the file and store the values
-    df = pd.read_csv(bw_file)
-    bad_words_list = list(df.iloc[:, 0])
-
-    return bad_words_list
 
   #-----------------------------------------------------------------------
   # Function Title: query_timeout()
@@ -84,7 +65,7 @@ class Querying():
     query_split = list(query.split(' '))
 
     # Check if bad words are in the query
-    if any(word in self.bad_words_list for word in query_split):
+    if any(word in self.db.get_bad_words() for word in query_split):
       return True
 
   #-----------------------------------------------------------------------
