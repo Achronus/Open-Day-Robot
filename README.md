@@ -11,6 +11,7 @@ GENERAL USAGE NOTES
 	database of questions relates to this institution only.
  -	The GUI is family-friendly and will filter out any inapropriate words in your query.
  -	Please report all bugs to the email found in the contacts section. Thank you.
+ -  Documentation can be found on the [wiki](https://github.com/Achronus/Open-Day-Robot/wiki). 
 	
 REQUIREMENTS
 ===========================================================================================
