@@ -21,15 +21,25 @@ REQUIREMENTS
 LAUNCH INSTRUCTIONS
 ===========================================================================================
 1) Run gazebo with navigation launch file-<br />
-	    roslaunch tiago_2dnav_gazebo tiago_navigation.launch public_sim:=true lost:=true
+```
+roslaunch tiago_2dnav_gazebo tiago_navigation.launch public_sim:=true lost:=true
+```
 
 2) Run person detection-<br />
-	    roslaunch pal_person_detector_opencv detector.launch image:=/xtion/rgb/image_raw
+```
+roslaunch pal_person_detector_opencv detector.launch image:=/xtion/rgb/image_raw
+```
 
 3) Open either-<br />
-    a) Patrol mode-<br />rosrun open_day_robot patrol<br />
-    b) Approach mode- add person model in front of the robot<br />
-	        rosrun open_day_robot persondetection
+    a) Patrol mode-
+		```
+		rosrun open_day_robot patrol
+		```
+    b) Approach mode- 
+		```
+		add person model in front of the robot
+	  rosrun open_day_robot persondetection
+		```
 
 CONTACT INFORMATION
 ===========================================================================================
