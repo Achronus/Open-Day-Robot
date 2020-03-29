@@ -32,12 +32,12 @@ roslaunch pal_person_detector_opencv detector.launch image:=/xtion/rgb/image_raw
 
 3) Open either-<br />
 
-a) Patrol mode-
+- Patrol mode-
 ```
 rosrun open_day_robot patrol
 ```
 
-b) Approach mode- 
+- Approach mode- 
 ```
 add person model in front of the robot
 rosrun open_day_robot persondetection
