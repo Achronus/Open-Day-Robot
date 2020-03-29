@@ -19,7 +19,7 @@ class Database:
   def __init__(self):
     """Create connection to remote mysql database."""
     config = configparser.ConfigParser()  # Information to create connection here
-    config.read("database.config")
+    config.read("gui/database.config")
     
     # MySQL Settings
     if "SSH" in config.sections() and "MySQL" in config.sections():
@@ -92,26 +92,3 @@ class Database:
     answer_sql = "SELECT description FROM questions WHERE question='{}'".format(question)
     self._cursor.execute(answer_sql)
     return self._cursor.fetchone()[0]
-
-  #-----------------------------------------------------------------------
-  # Function Title: add_new_question()
-  #-----------------------------------------------------------------------
-  def add_new_question(self, new_question):
-    """
-    Adds a new question to the new_questions table.
-    Parameters: (1) unknown user query.
-    """
-    # Check if the question is already in the new_questions table
-    search_sql = "SELECT question FROM new_questions WHERE question='{}'".format(new_question)
-    self._cursor.execute(search_sql)
-    response = self._cursor.fetchone()
-
-    # If the question is not already in the new_questions table
-    if response is None:
-      count_sql = "SELECT COUNT(*) FROM new_questions" # Find the next id to add the question to the database
-      self._cursor.execute(count_sql)
-      question_id = self._cursor.fetchone()[0]
-      created_at = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-      add_sql = "INSERT INTO new_questions (id, question, created_at) VALUES({}, '{}', '{}')".format(question_id, new_question, created_at)
-      self._cursor.execute(add_sql)
-      self._connection.commit() # Save changes
