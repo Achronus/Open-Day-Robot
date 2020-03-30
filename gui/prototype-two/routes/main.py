@@ -24,25 +24,26 @@ def index():
 	if request.method == "POST":
 		# Get category and redirect to results page
 		if 'question' in request.form:
-			query = request.form['question']
+			query = request.form['question'].lower().capitalize()
+			new_query, error = q.query_checker(query) # Check if new query is a string
+
 			# Length of query is too small
-			if len(query) <= 15:
+			if (len(new_query) <= 15) or (error):
 				return redirect(url_for("main.error"))
-			# Exacty query
-			elif q.query_timeout(query):
-				# Run query timeout and set the session query
-				q.query_timeout(query)
-				session['query'] = query
-
-				# Recalculate popularity order 
-				q.query_frequency(query)
-
-				# Move to results page
-				return redirect(url_for("main.results"))
-			# Likely queries
+			# Run query timeout and set the session query
+			elif q.query_timeout(new_query):
+				q.query_timeout(new_query)
+				session['query'] = new_query
+				return redirect(url_for("main.results")) # Move to results page
+			# Get matches for calculated likelihood
 			else:
-				session['likely_queries'] = q.calculated_likelihood(query, percentage=40)
-				return redirect(url_for("main.likely_questions"))
+				result = q.calculated_likelihood(query, percentage=40)
+				# Check calculated likelihood isn't lower than 35%
+				if result != False:
+					session['likely_queries'] = result
+					return redirect(url_for("main.likely_questions"))
+				else:
+					return redirect(url_for("main.error")) # Return error page
 
 		# If popular query selected, get the query and go to results
 		elif 'popular_query' in request.form:

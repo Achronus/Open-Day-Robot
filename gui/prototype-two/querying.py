@@ -14,9 +14,9 @@ class Querying():
   """
   Used to manage users queries to the GUI by calculating the right output 
   and return it to the user. Takes a query as input.\n
-  Functions: (7) __init__(), query_timeout(), filter_query(), 
+  Functions: (8) __init__(), query_timeout(), filter_query(), 
   set_query_dict(), query_frequency(), popular_queries(), 
-  calculated_likelihood()
+  calculated_likelihood(), query_checker()
   """
   #-----------------------------------------------------------------------
   # Function Title: __init__()
@@ -138,3 +138,56 @@ class Querying():
 
     # Change return value depending on closest
     return closest_matches
+
+  #-----------------------------------------------------------------------
+  # Function Title: query_checker()
+  #-----------------------------------------------------------------------
+  def query_checker(self, query):
+    """
+    Checks user queries to and handles apostrophes. Returns an update
+    version of the query with the apostrophe removed.\n
+    Parameters: (1) user query
+    """
+    # Change the apostrophe word
+    if "'" in query:
+
+      # Contractions
+      contractions = {
+        "ain't": "am not",
+        "aren't": "are not",
+        "can't": "cannot",
+        "could've": "could have",
+        "couldn't": "could not",
+        "didn't": "did not",
+        "doesn't": "does not",
+        "don't": "do not",
+        "hadn't": "had not",
+        "hasn't": "has not",
+        "haven't": "have not",
+        "how'd": "how did",
+        "how'll": "how will",
+        "shouldn't": "should not",
+        "that'd": "that would",
+        "that's": "that has",
+        "there'd": "there would",
+        "they'd": "they would",
+        "they'll": "they they will",
+        "they're": "they are",
+        "they've": "they have",
+        "won't": "will not",
+        "wouldn't": "would not"
+      }
+      new_query, error = query, True
+
+      # Split the words and convert 
+      for word in query.split():
+        if word.lower() in contractions:
+          new_query = query.replace(word, contractions[word.lower()])
+          error = False
+
+      return new_query.lower().capitalize(), error
+
+    # Nothing changes
+    else:
+      error = False
+      return query, error
