@@ -17,10 +17,10 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div id="main-container" class="container-fluid">
     <div class="row blue-bg spacing">
       <div class="col-lg-4 logo align-self-center">
-        <a href="{{ url_for('home') }}">
+        <a href="{{ url_for('main.index') }}">
           <img src="{{ url_for('static', filename='images/uol-logo-small.jpg') }}" alt="University of Lincoln Logo">
         </a>
       </div><!-- /.logo -->
@@ -33,6 +33,31 @@
     {% block content %}
     {% endblock %}
   </div> <!-- /.container -->
+
+  <div id="preloader" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="components">
+          <i class="fas fa-spinner fa-pulse"></i>
+          <h1>LOADING...</h1>
+        </div>
+      </div>
+    </div>
+  </div><!-- /.modal -->
+
+  <div id="welcome-screen" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h1 class="first shown">
+          Hey!
+          <br>
+          <i class="far fa-grin-beam"></i>
+        </h1>
+        <h1 class="second hidden">Do you have a question?</h1>
+      </div>
+    </div>
+  </div><!-- /.modal -->
+
   <!-- Custom scripts -->
   <script type="text/javascript" src="{{ url_for('static', filename='js/custom.js') }}"></script>
   </body>

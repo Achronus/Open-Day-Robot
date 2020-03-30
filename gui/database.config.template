@@ -1,4 +1,3 @@
-
 [SSH]
 UseSsh=true
 Host=[IP_ADDRESS]

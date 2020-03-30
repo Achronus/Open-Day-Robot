@@ -2,17 +2,18 @@
 {% block content %}
     <div class="container-fluid margin-spacing">
       <div class="row">
+        <div class="col-lg-12 searchbar-container">
           <div class="col-lg-11 search-title white-bg">
             <form action="#" method="POST" id="search-form">
               <input type="text" id="searchbar" name="question" placeholder="What can I help you with today?">
             </form>
-            <hr>
           </div><!-- /.search-title -->
-          <div class="col-lg-1 search-icon">
+          <div class="col-lg-2 search-icon">
             <button id="search-btn" type="submit" name="search-btn" form="search-form">
               <i class="fas fa-search"></i>
             </button>
           </div><!-- /.search-icon -->
+        </div><!-- /.searchbar-container -->
       </div><!-- /.row -->
     </div><!-- /.search-container -->
 

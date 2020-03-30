@@ -6,8 +6,6 @@
 from database import Database
 import fuzzywuzzy
 from fuzzywuzzy import process
-import pandas as pd
-import os
 
 #-----------------------------------------------------------------------
 # Class Title: Querying()
@@ -16,36 +14,19 @@ class Querying():
   """
   Used to manage users queries to the GUI by calculating the right output 
   and return it to the user. Takes a query as input.\n
-  Functions: (8) __init__(), set_bad_words_list(), query_timeout(), 
-  filter_query(), set_query_dict(), query_frequency(), popular_queries(), 
-  calculated_likelihood()
+  Functions: (8) __init__(), query_timeout(), filter_query(), 
+  set_query_dict(), query_frequency(), popular_queries(), 
+  calculated_likelihood(), query_checker()
   """
   #-----------------------------------------------------------------------
   # Function Title: __init__()
   #-----------------------------------------------------------------------
   def __init__(self):
-    self.bad_words_list = self.set_bad_words_list()
-    self.query_dict = {}
     self.db = Database()
+    self.query_dict = {}
 
     # Set query_dict values
     self.set_query_dict()
-
-  #-----------------------------------------------------------------------
-  # Function Title: set_bad_words_list()
-  #-----------------------------------------------------------------------
-  def set_bad_words_list(self):
-    """
-    Used to create the bad words list from the bad words list text file.
-    """
-    # Get the file path
-    bw_file = os.getcwd() + "\\bad-words.txt"
-
-    # Read the file and store the values
-    df = pd.read_csv(bw_file)
-    bad_words_list = list(df.iloc[:, 0])
-
-    return bad_words_list
 
   #-----------------------------------------------------------------------
   # Function Title: query_timeout()
@@ -84,7 +65,7 @@ class Querying():
     query_split = list(query.split(' '))
 
     # Check if bad words are in the query
-    if any(word in self.bad_words_list for word in query_split):
+    if any(word in self.db.get_bad_words() for word in query_split):
       return True
 
   #-----------------------------------------------------------------------
@@ -157,3 +138,56 @@ class Querying():
 
     # Change return value depending on closest
     return closest_matches
+
+  #-----------------------------------------------------------------------
+  # Function Title: query_checker()
+  #-----------------------------------------------------------------------
+  def query_checker(self, query):
+    """
+    Checks user queries to and handles apostrophes. Returns an update
+    version of the query with the apostrophe removed.\n
+    Parameters: (1) user query
+    """
+    # Change the apostrophe word
+    if "'" in query:
+
+      # Contractions
+      contractions = {
+        "ain't": "am not",
+        "aren't": "are not",
+        "can't": "cannot",
+        "could've": "could have",
+        "couldn't": "could not",
+        "didn't": "did not",
+        "doesn't": "does not",
+        "don't": "do not",
+        "hadn't": "had not",
+        "hasn't": "has not",
+        "haven't": "have not",
+        "how'd": "how did",
+        "how'll": "how will",
+        "shouldn't": "should not",
+        "that'd": "that would",
+        "that's": "that has",
+        "there'd": "there would",
+        "they'd": "they would",
+        "they'll": "they they will",
+        "they're": "they are",
+        "they've": "they have",
+        "won't": "will not",
+        "wouldn't": "would not"
+      }
+      new_query, error = query, True
+
+      # Split the words and convert 
+      for word in query.split():
+        if word.lower() in contractions:
+          new_query = query.replace(word, contractions[word.lower()])
+          error = False
+
+      return new_query.lower().capitalize(), error
+
+    # Nothing changes
+    else:
+      error = False
+      return query, error
