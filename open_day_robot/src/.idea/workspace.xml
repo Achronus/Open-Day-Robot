@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="src" targetName="src" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -20,7 +18,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="ProjectId" id="1Y4pzrFT6m4JS2u6vtuSDvbK9xY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,13 +30,6 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../build" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
-  </component>
-  <component name="RunManager">
-    <configuration name="src" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="src" TARGET_NAME="src" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="src" RUN_TARGET_NAME="src">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,6 +50,14 @@
       <workItem from="1583343313432" duration="1298000" />
       <workItem from="1583417562581" duration="234000" />
       <workItem from="1583417840578" duration="2382000" />
+      <workItem from="1585570642121" duration="1521000" />
+      <workItem from="1586015888236" duration="1531000" />
+      <workItem from="1586022654052" duration="1097000" />
+      <workItem from="1586024541962" duration="596000" />
+      <workItem from="1586162942662" duration="1348000" />
+      <workItem from="1586169038477" duration="617000" />
+      <workItem from="1586171579591" duration="1154000" />
+      <workItem from="1586174053221" duration="33000" />
     </task>
     <servers />
   </component>
@@ -75,11 +73,11 @@
       <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state x="464" y="164" width="992" height="737" key="SettingsEditor/0.25.1920.1008/1920.0.1920.1080@0.25.1920.1008" timestamp="1582212269084" />
-    <state x="654" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1583417840568">
+    <state x="654" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1586174056269">
       <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state x="654" y="356" key="com.intellij.ide.util.TipDialog/0.25.1920.1008/1920.0.1920.1080@0.25.1920.1008" timestamp="1583148723028" />
-    <state x="654" y="356" key="com.intellij.ide.util.TipDialog/0.25.1920.1008@0.25.1920.1008" timestamp="1583417840568" />
+    <state x="654" y="356" key="com.intellij.ide.util.TipDialog/0.25.1920.1008@0.25.1920.1008" timestamp="1586174056269" />
     <state x="974" y="547" key="com.intellij.ide.util.TipDialog/2560.672.1920.1080/0.697.2560.743@0.697.2560.743" timestamp="1582639151486" />
     <state x="100" y="125" width="1720" height="808" key="dock-window-1" timestamp="1583148793964">
       <screen x="0" y="25" width="1920" height="1008" />

@@ -4,7 +4,9 @@
 
 typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;
 
-void move(double x, double y, double w){
+void move(double x, double y, double z, double w){
+    ROS_INFO("move called");
+
     //telling the action client that we want to spin a thread by default
     MoveBaseClient ac("move_base", true);
 
@@ -24,6 +26,7 @@ void move(double x, double y, double w){
     //setting x,y and orientation
     goal.target_pose.pose.position.x = x;
     goal.target_pose.pose.position.y = y;
+    goal.target_pose.pose.orientation.z = z;
     goal.target_pose.pose.orientation.w = w;
 
     ROS_INFO("Sending goal");
@@ -37,9 +40,8 @@ void move(double x, double y, double w){
     else
         ROS_INFO("Failed to move");
 
-    //sleep for 10 seconds - can be changed to stop the robot between movements
-    ros::Duration(10).sleep();
-
+    //sleep for 3 seconds - can be changed to stop the robot between movements
+    ros::Duration(3).sleep();
 }
 
 int main(int argc, char** argv){
@@ -48,19 +50,12 @@ int main(int argc, char** argv){
 
     //while ros is running okay
     while (ros::ok()) {
-        //array of locations to be sent to the robot
-        //can be changed to represent different locations on the map
-        float locations[4][3]{
-                {4, 0, 1},
-                {-4, 0, 0.5},
-                {4, -6.5, 1},
-                {-4, -9, 0.5}
-        };
-
-        //iterating through the array, calling move with each location
-        for (int i = 0; i < 4; i++) {
-            move(locations[i][0], locations[i][1], locations[i][2]);
-
+        //keep looping through the function calls
+        while(true) {
+            move(13.0, -5.0, 0.999, 0.001);
+            move(0, -6.0, 0.7, 0.7);
+            move(-20.0, -2.0, 0.001, 0.999);
+            move(-20.0, 4.0, -0.7, 0.7);
         }
     }
     return 0;

@@ -30,7 +30,7 @@ private:
         if(msg->detections.data()!=NULL) {
             const pal_detection_msgs::Detection2d *detection = msg->detections.data();
 
-            ROS_INFO_STREAM(msg->detections.data());
+            ROS_INFO_STREAM("Person found.");
 
             //finding the centre coords of the person
             centreX = detection->x + (detection->width / 2);
