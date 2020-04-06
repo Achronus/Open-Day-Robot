@@ -108,11 +108,8 @@ class Database:
 
     # If the question is not already in the new_questions table
     if response is None:
-      count_sql = "SELECT COUNT(*) FROM new_questions" # Find the next id to add the question to the database
-      self._cursor.execute(count_sql)
-      question_id = self._cursor.fetchone()[0]
       created_at = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-      add_sql = "INSERT INTO new_questions (id, question, created_at) VALUES({}, '{}', '{}')".format(question_id, new_question, created_at)
+      add_sql = "INSERT INTO new_questions (question, created_at) VALUES('{}', '{}')".format(new_question, created_at)
       self._cursor.execute(add_sql)
       self._connection.commit() # Save changes
 
