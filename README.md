@@ -3,7 +3,7 @@ ODR Robot Version 1.1.0 20/03/2020
 ODR is a student-developed project aimed to make open days more interesting for prospective 
 students. It has been created for the TIAgo robot with a tablet extension. For those who 
 lack access to the hardware, the code can be run on GAZEBO and a web-version of the GUI can 
-be found at: https://odr-prototype-two.herokuapp.com/.
+be found at: http://134.209.23.247.
 
 GENERAL USAGE NOTES
 ===========================================================================================
