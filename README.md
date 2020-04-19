@@ -12,6 +12,7 @@ GENERAL USAGE NOTES
  -	The GUI is family-friendly and will filter out any inapropriate words in your query.
  -	Please report all bugs to the email found in the contacts section. Thank you.
  -  Documentation can be found on the [wiki](https://github.com/Achronus/Open-Day-Robot/wiki). 
+ -  The robots marketing video can be found on YouTube [here](https://youtu.be/hUqbG9lpjb8).
 	
 REQUIREMENTS
 ===========================================================================================
