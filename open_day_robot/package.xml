@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>open_day_robot</name>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
   <description>The open_day_robot package</description>
   <maintainer email="lewismcgillion@gmail.todo">Lewis McGillion</maintainer>
   <license>GPLv3</license>
