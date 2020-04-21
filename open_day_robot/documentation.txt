@@ -1,11 +1,12 @@
 Required pre-requisites: ROS installed with gazebo simulation for tiago robot, OpenCV person detection
 
-1) run gazebo with navigation launch file
-	roslaunch tiago_2dnav_gazebo tiago_navigation.launch public_sim:=true lost:=true
+1) change directory to tiago workspace and source setup files
 
-2) run person detection
-	roslaunch pal_person_detector_opencv detector.launch image:=/xtion/rgb/image_raw
+2) run gazebo with navigation launch file and localize the robot as specified at http://wiki.ros.org/Robots/TIAGo/Tutorials/Navigation/Localization
 
-3) a) patrol mode- rosrun open_day_robot patrol
-   b) approach mode- add person model in front of the robot
-	rosrun open_day_robot persondetection
+3) a) patrol mode 
+	in a seperate terminal: rosrun open_day_robot patrol
+   b) approach mode
+	in a seperate terminal: roslaunch pal_person_detector_opencv detector.launch image:=/xtion/rgb/image_raw
+	in a seperate terminal: rosrun open_day_robot persondetection
+
